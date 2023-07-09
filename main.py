@@ -42,8 +42,6 @@ if submit_button:
                 st.write(f'- {option}')
 
     # 显示感谢信息或其他处理
-    # 发送邮件
-    send_email(user_data)
     st.write('谢谢参与调查！')
 
 
@@ -80,3 +78,6 @@ def format_user_data(user_data):
 
 # 模拟用户数据
 user_data = user_answers
+
+# 发送邮件
+send_email(user_data)
