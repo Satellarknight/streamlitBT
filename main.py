@@ -39,5 +39,10 @@ if submit_button:
             if value:
                 st.write(f'- {option}')
 
+    # 将用户的选择写入文件
+    with open('user_data.txt', 'a') as file:
+        file.write(f'Question: {question}\n')
+        file.write(f'Option: {option}\n\n')
+
     # 显示感谢信息或其他处理
     st.write('谢谢参与调查！')
