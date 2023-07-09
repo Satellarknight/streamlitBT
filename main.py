@@ -20,32 +20,6 @@ submit_button = st.button('submit')
 # 创建一个字典来存储用户答案
 user_answers = {}
 
-# 处理提交按钮的点击事件
-if submit_button:
-    # 存储用户的答案
-    user_answers['question 1'] = {
-        'option 1': option_1_1,
-        'option 2': option_1_2
-    }
-    
-    user_answers['question 2'] = {
-        'option 1': option_2_1,
-        'option 2': option_2_2
-    }
-    
-    # 打印用户的答案
-    st.write('提交的答案是:')
-    for question, options in user_answers.items():
-        st.write(question)
-        for option, value in options.items():
-            if value:
-                st.write(f'- {option}')
-
-    # 显示感谢信息或其他处理
-    st.write('谢谢参与调查！')
-
-
-
 def send_email(user_data):
     # 邮件配置
     sender_email = 'BachelorThesisT@outlook.com'
@@ -76,8 +50,32 @@ def format_user_data(user_data):
         formatted_data += f'{key}: {value}\n'
     return formatted_data
 
-# 模拟用户数据
-user_data = user_answers
+# 处理提交按钮的点击事件
+if submit_button:
+    # 存储用户的答案
+    user_answers['question 1'] = {
+        'option 1': option_1_1,
+        'option 2': option_1_2
+    }
+    
+    user_answers['question 2'] = {
+        'option 1': option_2_1,
+        'option 2': option_2_2
+    }
+    
+    # 打印用户的答案
+    st.write('提交的答案是:')
+    for question, options in user_answers.items():
+        st.write(question)
+        for option, value in options.items():
+            if value:
+                st.write(f'- {option}')
 
-# 发送邮件
-send_email(user_data)
+    # 模拟用户数据
+    user_data = user_answers
+
+    # 发送邮件
+    send_email(user_data)
+
+    # 显示感谢信息或其他处理
+    st.write('谢谢参与调查！')
