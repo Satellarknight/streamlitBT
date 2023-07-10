@@ -5,6 +5,25 @@ from email.mime.text import MIMEText
 # 添加标题
 st.title('User Study')
 
+# 添加问题
+st.subheader("Now you want to buy a pair of women's pants, so you see the following six advertisements in the search engine, which one (which ones) do you want to click the most?：")
+
+# 广告选项
+ad_options = [
+    "Refined Sophistication: Elevate Your Look with Women's Trousers \n\n Achieve a sophisticated and polished look with our women's trousers. Expertly crafted with high-quality fabrics and attention to detail, these trousers offer a combination of elegance, comfort, and style, all for just $100.",
+    'ad 2',
+    'ad 3',
+    'ad 4',
+    'ad 5',
+    'ad 6'
+]
+
+# 为每个广告选项添加选择框
+ad_selections = {}
+for option in ad_options:
+    ad_selections[option] = st.checkbox(option)
+
+
 # 添加问题和选项
 question_1 = st.text_input('question 1:')
 option_1_1 = st.checkbox('option 1', key='question_1_option_1')
@@ -52,19 +71,25 @@ def format_user_data(user_data):
 
 # 处理提交按钮的点击事件
 if submit_button:
-    # 存储用户的答案
-    user_answers['question 1'] = {
-        'option 1': option_1_1,
-        'option 2': option_1_2
-    }
+
+    # 提取用户选择的广告选项
+    selected_ads = [option for option, selected in ad_selections.items() if selected]
     
-    user_answers['question 2'] = {
+    # 打印用户选择的广告选项
+    st.write('The ads you choose are：')
+    for ad in selected_ads:
+        st.write(ad)
+        
+    # 存储用户的答案
+    user_answers['ads 1'] = ad_selections[option]
+    
+    user_answers['ads 2'] = {
         'option 1': option_2_1,
         'option 2': option_2_2
     }
     
     # 打印用户的答案
-    st.write('提交的答案是:')
+    st.write('your answer is:')
     for question, options in user_answers.items():
         st.write(question)
         for option, value in options.items():
@@ -75,7 +100,12 @@ if submit_button:
     user_data = user_answers
 
     # 发送邮件
-    send_email(user_data)
+    #send_email(user_data)
 
     # 显示感谢信息或其他处理
-    st.write('谢谢参与调查！')
+    st.write('Thanks for taking the survey!')
+
+
+
+
+
