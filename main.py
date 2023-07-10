@@ -38,6 +38,7 @@ submit_button = st.button('submit')
 
 # 创建一个字典来存储用户答案
 user_answers = {}
+user_answers1 = {}
 
 def send_email(user_data):
     # 邮件配置
