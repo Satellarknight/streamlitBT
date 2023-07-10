@@ -81,7 +81,13 @@ if submit_button:
         st.write(ad)
         
     # 存储用户的答案
-    user_answers['ads 1'] = ad_selections[option]
+    user_answers1['ads 1'] = ad_selections[option]
+    
+    user_answers['ads 1'] = {
+        'option 1': option_1_1,
+        'option 2': option_1_2
+    }
+    
     
     user_answers['ads 2'] = {
         'option 1': option_2_1,
@@ -97,10 +103,10 @@ if submit_button:
                 st.write(f'- {option}')
 
     # 模拟用户数据
-    user_data = user_answers
+    user_data = user_answers1
 
     # 发送邮件
-    #send_email(user_data)
+    send_email(user_data)
 
     # 显示感谢信息或其他处理
     st.write('Thanks for taking the survey!')
