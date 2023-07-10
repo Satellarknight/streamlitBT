@@ -65,8 +65,8 @@ def send_email(user_data):
 def format_user_data(user_data):
     # 格式化用户数据为邮件内容
     formatted_data = ''
-    for key, value in user_data.items():
-        formatted_data += f'{key}: {value}\n'
+    for ad in user_data:
+        formatted_data += f'{ad}\n'
     return formatted_data
 
 # 处理提交按钮的点击事件
