@@ -38,7 +38,6 @@ submit_button = st.button('submit')
 
 # 创建一个字典来存储用户答案
 user_answers = {}
-user_answers1 = {}
 
 def send_email(user_data):
     # 邮件配置
@@ -82,8 +81,6 @@ if submit_button:
         st.write(ad)
         
     # 存储用户的答案
-    user_answers1['ads 1'] = ad_selections[option]
-    
     user_answers['ads 1'] = {
         'option 1': option_1_1,
         'option 2': option_1_2
@@ -104,7 +101,7 @@ if submit_button:
                 st.write(f'- {option}')
 
     # 模拟用户数据
-    user_data = user_answers1
+    user_data = selected_ads
 
     # 发送邮件
     send_email(user_data)
