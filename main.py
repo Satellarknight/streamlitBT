@@ -159,6 +159,21 @@ def page2():
 
 def page3():
     question_3 = st.text_input('question 3:')
+
+    # 广告图片
+    ad_image = "ad_image.jpg"
+    st.image(ad_image, use_column_width=True)
+
+    # 广告文本描述
+    ad_description = """
+    **Refined Sophistication: Elevate Your Look with Women's Trousers**
+    
+    Achieve a sophisticated and polished look with our women's trousers. Expertly crafted with high-quality fabrics and attention to detail, these trousers offer a combination of elegance, comfort, and style.
+    
+    <p style='color: blue; font-size: 14px;'>[Shop Now]</p>
+    """
+    option_2_1_description = st.markdown(ad_description, unsafe_allow_html=True)
+
     option_3_1 = st.checkbox(" \n\n ", key='question_3_option_1')
     option_3_2 = st.checkbox(" \n\n ", key='question_3_option_2')
     option_3_3 = st.checkbox(" \n\n ", key='question_3_option_3')
@@ -243,7 +258,4 @@ if __name__ == "__main__":
 
     # 运行主函数
     main()
-
-
-
 
