@@ -713,8 +713,8 @@ def page5():
     # 添加问题和选项
     question_5 = st.markdown("""
         <div>
-            <p style='color: black; font-size: 26px;'> 1. Now you want to buy books in the genre of romance, so you see the following six advertisements in the search engine, which one (which ones) do you want to click the most?</p>
-            <p style='color: brown; font-size: 18px;'> Books in the genre of romance: The romance genre is a popular category of books that consistently churns out bestsellers. The aim of the genre is simple, showcasing a love story where two people overcome adversity to obtain their happily ever after. </p>
+            <p style='color: black; font-size: 26px;'> 1. Now you want to buy a sheath dress, so you see the following six advertisements in the search engine, which one (which ones) do you want to click the most?</p>
+            <p style='color: brown; font-size: 18px;'> Sheath dress: In fashion, a sheath dress is a fitted, straight cut dress, often nipped at the waistline with no waist seam. </p>
         </div>
     """, unsafe_allow_html=True)
     st.markdown("""
@@ -728,8 +728,8 @@ def page5():
     option_5_1_description = st.markdown("""
         <div>
             <p style='font-size: 24px;'>1.</p>
-            <h4 style='color: blue; font-size: 24px;'>Indulge in Sophisticated Photography with our Phones</h4>
-            <p style='color: black; font-size: 16px;'>Experience the ultimate photography with our sophisticated style phones. Enjoy smooth photo performance, exceptional photo quality, and a breathtaking photo experience that will leave you in awe.</p>
+            <h4 style='color: blue; font-size: 24px;'>Sheath Dresses for Women</h4>
+            <p style='color: black; font-size: 16px;'>Shop women's sheath dresses from us for a stylish selection of sheath dresses for work, casual occasions and more. Explore our wide selection today!</p>
             <p style='color: green; font-size: 14px;'>www.example.com</p>
             <p style='font-size: 12px;'>Ad</p>
         </div>
@@ -745,8 +745,8 @@ def page5():
     option_5_2_description = st.markdown("""
         <div>
             <p style='font-size: 24px;'>2.</p>
-            <h4 style='color: blue; font-size: 24px;'>Discover Bold and Passionate Love: Romance Books</h4>
-            <p style='color: black; font-size: 16px;'>Ignite your imagination with our bold and passionate romance books. Dive into stories that push boundaries, exploring intense emotions, and celebrating the fiery connection between two souls.</p>
+            <h4 style='color: blue; font-size: 24px;'>Sheath Dresses For Women</h4>
+            <p style='color: black; font-size: 16px;'>From your everyday look to a formal ensemble, we have the dresses to meet your style needs. Shop for Sheath women's casual, special occasion, cocktail, and party dresses, formal gowns, and more, available in missy, plus, and petite sizes.</p>
             <p style='color: green; font-size: 14px;'>www.example.com</p>
             <p style='font-size: 12px;'>Ad</p>
         </div>
@@ -762,8 +762,8 @@ def page5():
     option_5_3_description = st.markdown("""
         <div>
             <p style='font-size: 24px;'>3.</p>
-            <h4 style='color: blue; font-size: 24px;'>Unveil Romance Tales</h4>
-            <p style='color: black; font-size: 16px;'>Step into a world of refined romance with our book collection. Delve into stories that exude elegance, featuring intriguing characters, intricate plotlines, and a tapestry of emotions.</p>
+            <h4 style='color: blue; font-size: 24px;'>Sleek Sheath Dresses</h4>
+            <p style='color: black; font-size: 16px;'>Achieve an aura of sophistication with our sleek sheath dresses. Tailored to perfection, these dresses embody refined elegance.</p>
             <p style='color: green; font-size: 14px;'>www.example.com</p>
             <p style='font-size: 12px;'>Ad</p>
         </div>
@@ -779,8 +779,8 @@ def page5():
     option_5_4_description = st.markdown("""
         <div>
             <p style='font-size: 24px;'>4.</p>
-            <h4 style='color: blue; font-size: 24px;'>A camera phone for every environment</h4>
-            <p style='color: black; font-size: 16px;'>A fantastic camera. Most phone cameras can handle good lighting conditions well, from the flagship class down to budget phones.</p>
+            <h4 style='color: blue; font-size: 24px;'>From Desk to Dinner: Versatile Sheath Dresses</h4>
+            <p style='color: black; font-size: 16px;'>Discover the versatility of our sheath dresses. From office meetings to evening soirees, these dresses effortlessly transition with you.</p>
             <p style='color: green; font-size: 14px;'>www.example.com</p>
             <p style='font-size: 12px;'>Ad</p>
         </div>
@@ -796,8 +796,8 @@ def page5():
     option_5_5_description = st.markdown("""
         <div>
             <p style='font-size: 24px;'>5.</p>
-            <h4 style='color: blue; font-size: 24px;'>Experience Classic Romance Elegance</h4>
-            <p style='color: black; font-size: 16px;'>Indulge in the timeless allure of classic romance with our exquisite book collection. Immerse yourself in stories that capture the essence of true love, filled with grace, passion, and undeniable charm.</p>
+            <h4 style='color: blue; font-size: 24px;'>On-Trend Chic: Trendy Sheath Dresses for Fashionistas</h4>
+            <p style='color: black; font-size: 16px;'>Stay ahead of the fashion curve with our collection of trendy sheath dresses. Designed with the latest trends in mind, these dresses combine style and sophistication.</p>
             <p style='color: green; font-size: 14px;'>www.example.com</p>
             <p style='font-size: 12px;'>Ad</p>
         </div>
@@ -813,8 +813,8 @@ def page5():
     option_5_6_description = st.markdown("""
         <div>
             <p style='font-size: 24px;'>6.</p>
-            <h4 style='color: blue; font-size: 24px;'>Unleash Your Creativity with Phones for Photo Excellence</h4>
-            <p style='color: black; font-size: 16px;'>Take your photography to the next level with our bold phones. Enjoy unparalleled camera performance, exceptional photo quality, and a breathtaking photo experience that will leave you breathless.</p>
+            <h4 style='color: blue; font-size: 24px;'>Elegant Sheath Dress</h4>
+            <p style='color: black; font-size: 16px;'>High Quality Dresses at Low Cost 1000+ Styles, Colours & Size. With many years of experience, we pride ourselves on our quality materials and service.</p>
             <p style='color: green; font-size: 14px;'>www.example.com</p>
             <p style='font-size: 12px;'>Ad</p>
         </div>
@@ -874,8 +874,8 @@ def page6():
     # 添加问题和选项
     question_6 = st.markdown("""
         <div>
-            <p style='color: black; font-size: 26px;'> 1. Now you want to buy a pair of women's pants, so you see the following six advertisements in the search engine, which one (which ones) do you want to click the most?</p>
-            <p style='color: brown; font-size: 18px;'>Women's pants: Women's pants are a versatile and essential part of any woman's wardrobe. They come in various styles, fits, and fabrics, offering comfort and style for different occasions. </p>
+            <p style='color: black; font-size: 26px;'> 1. Now you want to buy fantasy books, so you see the following six advertisements in the search engine, which one (which ones) do you want to click the most?</p>
+            <p style='color: brown; font-size: 18px;'>Fantasy books: Fantasy literature is literature set in an imaginary universe, often but not always without any locations, events, or people from the real world. Magic, the supernatural and magical creatures are common in many of these imaginary worlds. </p>
         </div>
     """, unsafe_allow_html=True)
     st.markdown("""
@@ -888,8 +888,8 @@ def page6():
     option_6_11 = st.checkbox("This Ad is attractive.", key='question_6_option_11')
     option_6_1_description = st.markdown("""
         <div>
-            <h4 style='color: blue; font-size: 24px;'>Refined Sophistication: Elevate Your Look with Women's Trousers</h4>
-            <p style='color: black; font-size: 16px;'>Achieve a sophisticated and polished look with our women's trousers. Expertly crafted with high-quality fabrics and attention to detail, these trousers offer a combination of elegance, comfort, and style.</p>
+            <h4 style='color: blue; font-size: 24px;'>Fantasy Books</h4>
+            <p style='color: black; font-size: 16px;'>Click to View Our Range of Fantasy Books Including all Best Sellers and New Releases。With Something For Everyone, A Top Selling Title Makes The Perfect Gift.</p>
             <p style='color: green; font-size: 14px;'>www.example.com</p>
             <p style='font-size: 12px;'>Ad</p>
         </div>
@@ -904,8 +904,8 @@ def page6():
     option_6_22 = st.checkbox("This Ad is attractive.", key='question_6_option_22')
     option_6_2_description = st.markdown("""
         <div>
-            <h4 style='color: blue; font-size: 24px;'>Women's Pants - Watch Out For Exclusive Offers</h4>
-            <p style='color: black; font-size: 16px;'>Find a Huge Range of Designers, Brands and Styles. Discover Fashion Online! Discover Inclusive Range & Styles. Enjoy Free Delivery to Switzerland.</p>
+            <h4 style='color: blue; font-size: 24px;'>Experience Enchanting Worlds: Fantasy Books</h4>
+            <p style='color: black; font-size: 16px;'>Immerse yourself in the timeless allure of fantasy with our collection of classic books. Unleash your imagination and embark on magical adventures.</p>
             <p style='color: green; font-size: 14px;'>www.example.com</p>
             <p style='font-size: 12px;'>Ad</p>
         </div>
@@ -920,8 +920,8 @@ def page6():
     option_6_33 = st.checkbox("This Ad is attractive.", key='question_6_option_33')
     option_6_3_description = st.markdown("""
         <div>
-            <h4 style='color: blue; font-size: 24px;'>Women's trousers - Switzerland</h4>
-            <p style='color: black; font-size: 16px;'>Women's trousers are an everyday wardrobe staple. With designs from the latest collection, it's easy to create looks that are both stylish and practical.</p>
+            <h4 style='color: blue; font-size: 24px;'>Fantasy Fiction Books & Box Sets</h4>
+            <p style='color: black; font-size: 16px;'>Get cheap Fantasy Books from us. With a wide range of fantasy fiction books and box sets to choose from, you'll quickly find your next read.</p>
             <p style='color: green; font-size: 14px;'>www.example.com</p>
             <p style='font-size: 12px;'>Ad</p>
         </div>
@@ -936,8 +936,8 @@ def page6():
     option_6_44 = st.checkbox("This Ad is attractive.", key='question_6_option_44')
     option_6_4_description = st.markdown("""
         <div>
-            <h4 style='color: blue; font-size: 24px;'>Pants - Women's</h4>
-            <p style='color: black; font-size: 16px;'>Sitting, kneeling, scrambling, hiking – These women's pants are durable, breathable, and deliver comfort, freedom of movement, and elemental protection.</p>
+            <h4 style='color: blue; font-size: 24px;'>Unleash Your Imagination: Epic Fantasy Books </h4>
+            <p style='color: black; font-size: 16px;'>Dive into the realm of epic fantasy with our bold selection of books. Discover captivating worlds, mythical creatures, and heroic quests.</p>
             <p style='color: green; font-size: 14px;'>www.example.com</p>
             <p style='font-size: 12px;'>Ad</p>
         </div>
@@ -952,8 +952,8 @@ def page6():
     option_6_55 = st.checkbox("This Ad is attractive.", key='question_6_option_55')
     option_6_5_description = st.markdown("""
         <div>
-            <h4 style='color: blue; font-size: 24px;'>Versatile Chic: Women's Trousers for Every Occasion</h4>
-            <p style='color: black; font-size: 16px;'>Discover the versatility of our women's trousers. From casual outings to formal events, these trousers effortlessly transition between different looks, offering a perfect fit, comfort, and style.</p>
+            <h4 style='color: blue; font-size: 24px;'>Indulge in Enthralling Tales: Refined Fantasy Books</h4>
+            <p style='color: black; font-size: 16px;'>Escape into enchanting narratives with our curated collection of fantasy books. Lose yourself in captivating storytelling and embark on extraordinary journeys.</p>
             <p style='color: green; font-size: 14px;'>www.example.com</p>
             <p style='font-size: 12px;'>Ad</p>
         </div>
@@ -968,8 +968,8 @@ def page6():
     option_6_66 = st.checkbox("This Ad is attractive.", key='question_6_option_66')
     option_6_6_description = st.markdown("""
         <div>
-            <h4 style='color: blue; font-size: 24px;'>Make a Statement: Bold Women's Trousers for the Modern Fashionista</h4>
-            <p style='color: black; font-size: 16px;'>Unleash your inner fashionista with our bold women's trousers. Designed to make a statement, these trousers feature unique patterns, vibrant colors, and a perfect blend of style and comfort.</p>
+            <h4 style='color: blue; font-size: 24px;'>Shop Online for Fantasy Books</h4>
+            <p style='color: black; font-size: 16px;'>Discover the best books in Fantasy Books with fast shipping. The perfect book is waiting for you.</p>
             <p style='color: green; font-size: 14px;'>www.example.com</p>
             <p style='font-size: 12px;'>Ad</p>
         </div>
@@ -1080,7 +1080,7 @@ def page7():
     option_7_11 = st.checkbox("This email is attractive.", key='question_7_option_11')
 
     email_preview_7_1 = """
-    ## Expand Your Musical Horizons - Exclusive music Lessons Offer Inside!
+    ## Expand Your Musical Horizons - Exclusive music Lessons Offer Inside! ##
 
     From: Musecore@gmail.com
     To: James@gmail.com
@@ -1114,7 +1114,7 @@ def page7():
     option_7_22 = st.checkbox("This email is attractive.", key='question_7_option_22')
 
     email_preview_7_2 = """
-    ## Try our newest music course!
+    ## Try our newest music course! ##
 
     From: Musecore@gmail.com
     To: James@gmail.com
@@ -1191,7 +1191,7 @@ def page8():
     option_8_11 = st.checkbox("This email is attractive.", key='question_8_option_11')
 
     email_preview_8_1 = """
-    ## Your Luxury Travel summer specials.
+    ## Your Luxury Travel summer specials. ##
 
     From: Beyondqueues@gmail.com
     To: Lina@gmail.com
@@ -1221,7 +1221,7 @@ def page8():
     option_8_22 = st.checkbox("This email is attractive.", key='question_8_option_22')
 
     email_preview_8_2 = """
-    ## Embrace Tranquility - Exclusive Vacation Offer Inside!
+    ## Embrace Tranquility - Exclusive Vacation Offer Inside! ##
 
     From: Beyondqueues@gmail.com
     To: Lina@gmail.com
@@ -1265,9 +1265,9 @@ def page8():
 
 def page9():
     st.title('User Study')
-    question_8 = st.markdown("""
+    question_9 = st.markdown("""
         <div>
-            <p style='color: black; font-size: 26px;'> 2. Imagine you are a female conpany employees names Lina who wants to relax. You have three emails in your mailbox selling vacation plans.</p>
+            <p style='color: black; font-size: 26px;'> 2. Imagine you are a middle-aged female employee names Elice. You have three emails in your mailbox selling vitamin C health products.</p>
         </div>
     """, unsafe_allow_html=True)
 
@@ -1278,11 +1278,11 @@ def page9():
     """, unsafe_allow_html=True)  # 添加空行
     st.markdown("<br>", unsafe_allow_html=True)  # 添加空行
 
-    option_8_0 = st.checkbox("I think this email is relevant to me.", key='question_8_option_0')
-    option_8_00 = st.checkbox("This email is attractive.", key='question_8_option_00')
+    option_9_0 = st.checkbox("I think this email is relevant to me.", key='question_9_option_0')
+    option_9_00 = st.checkbox("This email is attractive.", key='question_9_option_00')
 
     # 广告图片
-    email_image = "email_vacation.jpg"
+    email_image = "email_vitaminc.jpg"
     st.image(email_image, use_column_width=True)
 
 
@@ -1293,28 +1293,32 @@ def page9():
     """, unsafe_allow_html=True)  # 添加空行
     st.markdown("<br>", unsafe_allow_html=True)  # 添加空行
 
-    option_8_1 = st.checkbox("I think this email is relevant to me.", key='question_8_option_1')
-    option_8_11 = st.checkbox("This email is attractive.", key='question_8_option_11')
+    option_9_1 = st.checkbox("I think this email is relevant to me.", key='question_9_option_1')
+    option_9_11 = st.checkbox("This email is attractive.", key='question_9_option_11')
 
-    email_preview_8_1 = """
-    ## Your Luxury Travel summer specials.
+    email_preview_9_1 = """
+    ## Elevate Your Immune System - Exclusive Vitamin C Offer Inside! ##
 
-    From: Beyondqueues@gmail.com
-    To: Lina@gmail.com
+    From: Fullscript@gmail.com
+    To: Elice@gmail.com
 
     --- 
 
-    Dear Mrs Lina
- 
-    It’s time for summer, sun and fun in the water! Enjoy the warmest season of the year with beautiful hotel stays and unforgettable leisure experiences on the water and in the mountains. And best of all – you’ll travel comfortably, affordably and sustainably.
+    Hey Elice,
 
-    Quantities are limited, please reply immediately for more information if you are interested!
-    
-    Beyondqueues Team
+    As a vulnerable female professional, I understand the importance of your immune system. That's why I'm thrilled to introduce our exclusive vitamin C supplement, which will enhance your defenses and boost your overall well-being.
+
+    Discover a range of immuneboosting nutrients that support optimal functioning of your immune cells! 
+
+    Limited availability, so don't miss out on this exclusive offer. Reply now for more details and elevate your immune system with our exceptional vitamin C.
+
+    Invest in yourself, thrive!
+
+    Fullscript Team
     --- 
     
     """
-    option_8_1_description = st.markdown(email_preview_8_1, unsafe_allow_html=True)
+    option_9_1_description = st.markdown(email_preview_9_1, unsafe_allow_html=True)
 
     st.markdown("""
         <div>
@@ -1323,42 +1327,40 @@ def page9():
     """, unsafe_allow_html=True)  # 添加空行
     st.markdown("<br>", unsafe_allow_html=True)  # 添加空行
 
-    option_8_2 = st.checkbox("I think this email is relevant to me.", key='question_8_option_2')
-    option_8_22 = st.checkbox("This email is attractive.", key='question_8_option_22')
+    option_9_2 = st.checkbox("I think this email is relevant to me.", key='question_9_option_2')
+    option_9_22 = st.checkbox("This email is attractive.", key='question_9_option_22')
 
-    email_preview_8_2 = """
-    ## Embrace Tranquility - Exclusive Vacation Offer Inside!
+    email_preview_9_2 = """
+    ## Best Vitamin C products especially for you! ##
 
-    From: Beyondqueues@gmail.com
-    To: Lina@gmail.com
+    From: Fullscript@gmail.com
+    To: Elice@gmail.com
 
     --- 
 
-    Hey Lina,
+    Hey Elice,
 
-    In need of a well-deserved break? As a female professional who wants to unwind and recharge, I have an exciting vacation plan tailored just for you. Step away from the office and immerse yourself in breathtaking landscapes that will transport you to a world of serenity.
+    Please pay attention to our latest vitamin C health products! It is especially recommended for middle-aged female employees like you to improve immunity, work and live better!
+    
+    Quantities are limited, please reply immediately for more information if you are interested!
 
-    Indulge in mesmerizing vistas, explore hidden gems, and unwind amidst nature's wonders. Our curated package offers a perfect blend of relaxation and adventure, creating unforgettable memories for you and your colleagues.
-
-    Limited availability, so don't miss out on this exclusive offer. Reply now for more details and embark on a journey of serenity with our exceptional vacation plans.
-
-    Rediscover tranquility!
+    Invest in yourself, thrive!
  
-    Beyondqueues Team
+    Fullscript Team
 
     --- 
     
     """
-    option_8_2_description = st.markdown(email_preview_8_2, unsafe_allow_html=True)
+    option_9_2_description = st.markdown(email_preview_9_2, unsafe_allow_html=True)
 
     # 保存答案
-    st.session_state.user_answers['email 2'] = {
-        'option 1': option_8_1,
-        'option 11': option_8_11,
-        'option 2': option_8_2,
-        'option 22': option_8_22,
-        'option 0': option_8_0,
-        'option 00': option_8_00
+    st.session_state.user_answers['email 3'] = {
+        'option 1': option_9_1,
+        'option 11': option_9_11,
+        'option 2': option_9_2,
+        'option 22': option_9_22,
+        'option 0': option_9_0,
+        'option 00': option_9_00
     }
 
     if st.button("Previous question"):
@@ -1553,7 +1555,7 @@ def page10():
     option_10_777 = st.checkbox("I couldn't tell the difference.", key='question_10_option_777')
 
     # 保存答案
-    st.session_state.user_answers['ads 6'] = {
+    st.session_state.user_answers['ads 10'] = {
         'option 1': option_10_1,
         'option 11': option_10_11,
         'option 2': option_10_2,
@@ -1635,10 +1637,10 @@ def page11():
     # 添加标题
     st.title('User Study')
     # 添加问题和选项
-    question_10 = st.markdown("""
+    question_11 = st.markdown("""
         <div>
-            <p style='color: black; font-size: 26px;'> 3. Now you want to buy a man's jacket, so you see the following six advertisements in the social media platform, which one (which ones) do you want to click the most?</p>
-            <p style='color: brown; font-size: 18px;'>Jacket: A jacket typically has sleeves, and fastens in the front or slightly on the side. A jacket is generally lighter, tighter-fitting, and less insulating than a coat, which is outerwear. </p>
+            <p style='color: black; font-size: 26px;'> 3. Now you're hoping to spend a week on vacation with your family, so you see the following six advertisements in the social media platform, which one (which ones) do you want to click the most?</p>
+            <p style='color: brown; font-size: 18px;'></p>
         </div>
     """, unsafe_allow_html=True)
     st.markdown("""
@@ -1647,21 +1649,20 @@ def page11():
         </div>
     """, unsafe_allow_html=True)  # 添加空行
     st.markdown("<br>", unsafe_allow_html=True)  # 添加空行
-    option_10_1 = st.checkbox("I will click on this web page.", key='question_10_option_1')
-    option_10_11 = st.checkbox("This Ad is attractive.", key='question_10_option_11')
+    option_11_1 = st.checkbox("I will click on this web page.", key='question_11_option_1')
+    option_11_11 = st.checkbox("This Ad is attractive.", key='question_11_option_11')
     # 广告图片
-    ad_image = "ad_jacket.jpg"
+    ad_image = "ad_vacation.jpg"
     st.image(ad_image, use_column_width=True)
 
     # 广告文本描述
-    ad_description_10_1 = """1.
-    **Elevate Your Look with Women's Trousers**
+    ad_description_11_1 = """1.
+    **Create Unforgettable Memories on Your Family Vacation**
     
-    Our Seasonal Sale Is Live! Free Worldwide Shipping. Experience The Entire Collection Today. Elevate Your Style.
-    
+    Escape the routine and embark on a week-long adventure with your loved ones. Our family-friendly vacation packages offer endless fun and excitement for all ages. From thrilling activities to relaxing beach days, make your family vacation truly unforgettable.
     <p style='color: blue; font-size: 14px;'>[Shop Now]</p>
     """
-    option_10_1_description = st.markdown(ad_description_10_1, unsafe_allow_html=True)
+    option_11_1_description = st.markdown(ad_description_11_1, unsafe_allow_html=True)
 
     st.markdown("""
         <div>
@@ -1669,21 +1670,21 @@ def page11():
         </div>
     """, unsafe_allow_html=True)  # 添加空行
     st.markdown("<br>", unsafe_allow_html=True)  # 添加空行
-    option_10_2 = st.checkbox("I will click on this web page.", key='question_10_option_2')
-    option_10_22 = st.checkbox("This Ad is attractive.", key='question_10_option_22')
+    option_11_2 = st.checkbox("I will click on this web page.", key='question_11_option_2')
+    option_11_22 = st.checkbox("This Ad is attractive.", key='question_11_option_22')
     # 广告图片
-    ad_image = "ad_jacket.jpg"
+    ad_image = "ad_vacation.jpg"
     st.image(ad_image, use_column_width=True)
 
     # 广告文本描述
-    ad_description_10_2 = """2.
-    **Stay Ahead of the Trends: Trendy Men's Jackets for the Fashion-Forward**
+    ad_description_11_2 = """2.
+    **Enjoy your vacation!**
     
-    Be a trendsetter with our collection of trendy men's jackets. Designed with the latest fashion trends in mind, these jackets combine style and functionality.
+    Plan your ultimate vacation with us! With our prime city center location, you'll be within reach of iconic landmarks. Enjoy the comfort of our modern rooms and suites and treat yourself to culinary delights at our cozy Restaurant and pool bar.
     
     <p style='color: blue; font-size: 14px;'>[Shop Now]</p>
     """
-    option_10_2_description = st.markdown(ad_description_10_2, unsafe_allow_html=True)
+    option_11_2_description = st.markdown(ad_description_11_2, unsafe_allow_html=True)
 
     st.markdown("""
         <div>
@@ -1691,21 +1692,21 @@ def page11():
         </div>
     """, unsafe_allow_html=True)  # 添加空行
     st.markdown("<br>", unsafe_allow_html=True)  # 添加空行
-    option_10_3 = st.checkbox("I will click on this web page.", key='question_10_option_3')
-    option_10_33 = st.checkbox("This Ad is attractive.", key='question_10_option_33')
+    option_11_3 = st.checkbox("I will click on this web page.", key='question_11_option_3')
+    option_11_33 = st.checkbox("This Ad is attractive.", key='question_11_option_33')
     # 广告图片
-    ad_image = "ad_jacket.jpg"
+    ad_image = "ad_vacation.jpg"
     st.image(ad_image, use_column_width=True)
 
     # 广告文本描述
-    ad_description_10_3 = """3.
-    **Men's Jackets**
+    ad_description_11_3 = """3.
+    **Enjoy All-Inclusive Family Fun on Your One-Week Vacation**
     
-    Denim, leather, hooded, bomber, and sports jackets are the perfect styles to complete casual outfits. While tailored and textured styles add a special style note. From windbreakers to biker jackets, overshirts to padded designs, our online collection of jackets for men has every occasion covered.
+    Leave the planning to us and immerse yourself in a week of worry-free family fun. Our all-inclusive vacation packages cover accommodations, meals, and exciting activities for the whole family. Experience the joy of quality time together.
     
     <p style='color: blue; font-size: 14px;'>[Shop Now]</p>
     """
-    option_10_3_description = st.markdown(ad_description_10_3, unsafe_allow_html=True)
+    option_11_3_description = st.markdown(ad_description_11_3, unsafe_allow_html=True)
 
     st.markdown("""
         <div>
@@ -1713,21 +1714,23 @@ def page11():
         </div>
     """, unsafe_allow_html=True)  # 添加空行
     st.markdown("<br>", unsafe_allow_html=True)  # 添加空行
-    option_10_4 = st.checkbox("I will click on this web page.", key='question_10_option_4')
-    option_10_44 = st.checkbox("This Ad is attractive.", key='question_10_option_44')
+    option_11_4 = st.checkbox("I will click on this web page.", key='question_11_option_4')
+    option_11_44 = st.checkbox("This Ad is attractive.", key='question_11_option_44')
     # 广告图片
-    ad_image = "ad_jacket.jpg"
+    ad_image = "ad_vacation.jpg"
     st.image(ad_image, use_column_width=True)
 
     # 广告文本描述
-    ad_description_10_4 = """4.
-    **Elevate Your Look with Men's Jackets**
+    ad_description_11_4 = """4.
+    **Looking for a short vacation?**
     
-    Achieve a sophisticated and polished look with our men's jackets. Crafted with attention to detail and superior quality, these jackets offer a timeless appeal and exceptional comfort.
+    We have a lot of tour packages for your consideration!
+    Travelling is an immersive experience that combines vibrant culture, breathtaking landscapes, and warm hospitality. From exploring ancient temples and bustling markets to relaxing on pristine beaches and savouring tantalising cuisine, we offer a diverse and unforgettable journey for every traveller.
+    It's time to take a break and plan a trip with your friends and family!
     
     <p style='color: blue; font-size: 14px;'>[Shop Now]</p>
     """
-    option_10_4_description = st.markdown(ad_description_10_4, unsafe_allow_html=True)
+    option_11_4_description = st.markdown(ad_description_11_4, unsafe_allow_html=True)
 
     st.markdown("""
         <div>
@@ -1735,21 +1738,21 @@ def page11():
         </div>
     """, unsafe_allow_html=True)  # 添加空行
     st.markdown("<br>", unsafe_allow_html=True)  # 添加空行
-    option_10_5 = st.checkbox("I will click on this web page.", key='question_10_option_5')
-    option_10_55 = st.checkbox("This Ad is attractive.", key='question_10_option_55')
+    option_11_5 = st.checkbox("I will click on this web page.", key='question_11_option_5')
+    option_11_55 = st.checkbox("This Ad is attractive.", key='question_11_option_55')
     # 广告图片
-    ad_image = "ad_jacket.jpg"
+    ad_image = "ad_vacation.jpg"
     st.image(ad_image, use_column_width=True)
 
     # 广告文本描述
-    ad_description_10_5 = """5.
-    **Men's Coats & Jackets**
+    ad_description_11_5 = """5.
+    **Indulge in a Relaxing One-Week Vacation for the Whole Family**
     
-    Discover men's coats and jackets with us. Shop a range of styles from leather and denim jackets, to trench and rain coats. Order today!
+    Take a break from the hustle and bustle of everyday life and treat your family to a week of relaxation and rejuvenation. Our vacation retreats provide a tranquil oasis where you can unwind and create precious memories together.
     
     <p style='color: blue; font-size: 14px;'>[Shop Now]</p>
     """
-    option_10_5_description = st.markdown(ad_description_10_5, unsafe_allow_html=True)
+    option_11_5_description = st.markdown(ad_description_11_5, unsafe_allow_html=True)
 
     st.markdown("""
         <div>
@@ -1757,21 +1760,21 @@ def page11():
         </div>
     """, unsafe_allow_html=True)  # 添加空行
     st.markdown("<br>", unsafe_allow_html=True)  # 添加空行
-    option_10_6 = st.checkbox("I will click on this web page.", key='question_10_option_6')
-    option_10_66 = st.checkbox("This Ad is attractive.", key='question_10_option_66')
+    option_11_6 = st.checkbox("I will click on this web page.", key='question_11_option_6')
+    option_11_66 = st.checkbox("This Ad is attractive.", key='question_11_option_66')
     # 广告图片
-    ad_image = "ad_jacket.jpg"
+    ad_image = "ad_vacation.jpg"
     st.image(ad_image, use_column_width=True)
 
     # 广告文本描述
-    ad_description_10_6 = """6.
-    **Men's Jackets for Every Occasion**
+    ad_description_11_6 = """6.
+    **A Journey to Escape the Earth**
     
-    Discover the versatility of our men's jackets. From casual outings to formal events, these jackets effortlessly elevate your style. With a perfect fit, premium materials, and versatility.
+    We offer custom travel experiences and innovative corporate travel. You can access resources across private family vacations, humanity discovery, deluxe golf club, global business visit exclusively. Let our team plan you a luxury vacation today!
     
     <p style='color: blue; font-size: 14px;'>[Shop Now]</p>
     """
-    option_10_6_description = st.markdown(ad_description_10_6, unsafe_allow_html=True)
+    option_11_6_description = st.markdown(ad_description_11_6, unsafe_allow_html=True)
 
     st.markdown("""
         <div>
@@ -1780,41 +1783,41 @@ def page11():
     """, unsafe_allow_html=True)  # 添加空行
     st.markdown("<br>", unsafe_allow_html=True)  # 添加空行
     
-    question_106 = st.markdown("""
+    question_116 = st.markdown("""
         <div>
             <p style='color: black; font-size: 20px;'> Which ads do you think are generated by AI? </p>
         </div>
     """, unsafe_allow_html=True)
 
-    option_10_111 = st.checkbox("ads 1", key='question_10_option_111')
-    option_10_222 = st.checkbox("ads 2", key='question_10_option_222')
-    option_10_333 = st.checkbox("ads 3", key='question_10_option_333')
-    option_10_444 = st.checkbox("ads 4", key='question_10_option_444')
-    option_10_555 = st.checkbox("ads 5", key='question_10_option_555')
-    option_10_666 = st.checkbox("ads 6", key='question_10_option_666')
-    option_10_777 = st.checkbox("I couldn't tell the difference.", key='question_10_option_777')
+    option_11_111 = st.checkbox("ads 1", key='question_11_option_111')
+    option_11_222 = st.checkbox("ads 2", key='question_11_option_222')
+    option_11_333 = st.checkbox("ads 3", key='question_11_option_333')
+    option_11_444 = st.checkbox("ads 4", key='question_11_option_444')
+    option_11_555 = st.checkbox("ads 5", key='question_11_option_555')
+    option_11_666 = st.checkbox("ads 6", key='question_11_option_666')
+    option_11_777 = st.checkbox("I couldn't tell the difference.", key='question_11_option_777')
 
     # 保存答案
-    st.session_state.user_answers['ads 6'] = {
-        'option 1': option_10_1,
-        'option 11': option_10_11,
-        'option 2': option_10_2,
-        'option 22': option_10_22,
-        'option 3': option_10_3,
-        'option 33': option_10_33,
-        'option 4': option_10_4,
-        'option 44': option_10_44,
-        'option 5': option_10_5,
-        'option 55': option_10_55,
-        'option 6': option_10_6,
-        'option 66': option_10_66,
-        'option 111': option_10_111,
-        'option 222': option_10_222,
-        'option 333': option_10_333,
-        'option 444': option_10_444,
-        'option 555': option_10_555,
-        'option 666': option_10_666,
-        'option 777': option_10_777
+    st.session_state.user_answers['ads 11'] = {
+        'option 1': option_11_1,
+        'option 11': option_11_11,
+        'option 2': option_11_2,
+        'option 22': option_11_22,
+        'option 3': option_11_3,
+        'option 33': option_11_33,
+        'option 4': option_11_4,
+        'option 44': option_11_44,
+        'option 5': option_11_5,
+        'option 55': option_11_55,
+        'option 6': option_11_6,
+        'option 66': option_11_66,
+        'option 111': option_11_111,
+        'option 222': option_11_222,
+        'option 333': option_11_333,
+        'option 444': option_11_444,
+        'option 555': option_11_555,
+        'option 666': option_11_666,
+        'option 777': option_11_777
     }
 
     if st.button("Previous question"):
