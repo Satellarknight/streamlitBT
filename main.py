@@ -1590,7 +1590,7 @@ def page10():
     if submit_button:
 
         # 打印用户的答案
-        st.write('your answer is saving...')
+        st.write('your answer is saving...please wait for a few seconds...')
 
         # 模拟用户数据
         user_data = st.session_state.user_answers
@@ -1833,7 +1833,7 @@ def page11():
     if submit_button:
 
         # 打印用户的答案
-        st.write('your answer is saving...')
+        st.write('your answer is saving...please wait for a few seconds...')
 
         # 模拟用户数据
         user_data = st.session_state.user_answers
