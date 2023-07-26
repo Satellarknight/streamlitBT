@@ -1271,7 +1271,7 @@ def page8():
     option_8_2 = st.checkbox("I think this email is relevant to me.", key='question_8_option_2')
     option_8_22 = st.checkbox("This email is attractive.", key='question_8_option_22')
 
-    email_preview_8_2 = """ personalized email 2
+    email_preview_8_2 = """ personalized email 3
     ## Embrace Tranquility - Exclusive Vacation Offer Inside! ##
 
     From: Beyondqueues@gmail.com
