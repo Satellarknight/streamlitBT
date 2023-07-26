@@ -1113,6 +1113,7 @@ def page7():
     Limited spaces available, so secure your spot now! Reply for more details and an exclusive offer that will transport you to the music world.
 
     Strike a musical balance!
+    
     Musecore Team
 
     --- 
