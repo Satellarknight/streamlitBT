@@ -70,8 +70,7 @@ def page1():
         </div>
     """, unsafe_allow_html=True)  # 添加空行
     st.markdown("<br>", unsafe_allow_html=True)  # 添加空行
-    option_1_1 = st.checkbox("I will click on this web page.", key='question_1_option_1')
-    option_1_11 = st.checkbox("This Ad is attractive.", key='question_1_option_11')
+    
     option_1_1_description = st.markdown("""
         <div>
             <p style='font-size: 24px;'>Ad 1.</p>
@@ -81,14 +80,17 @@ def page1():
             <p style='font-size: 12px;'>Ad</p>
         </div>
     """, unsafe_allow_html=True)
+
+    option_1_1 = st.checkbox("I will click on this web page.", key='question_1_option_1')
+    option_1_11 = st.checkbox("This Ad is attractive.", key='question_1_option_11')
+
     st.markdown("""
         <div>
             <p style='color: black; font-size: 26px;'> ----------------------------------------------------------------------------- </p>
         </div>
     """, unsafe_allow_html=True)  # 添加空行
     st.markdown("<br>", unsafe_allow_html=True)  # 添加空行
-    option_1_2 = st.checkbox("I will click on this web page.", key='question_1_option_2')
-    option_1_22 = st.checkbox("This Ad is attractive.", key='question_1_option_22')
+    
     option_1_2_description = st.markdown("""
         <div>
             <p style='font-size: 24px;'>Ad 2.</p>
@@ -98,14 +100,17 @@ def page1():
             <p style='font-size: 12px;'>Ad</p>
         </div>
     """, unsafe_allow_html=True)
+
+    option_1_2 = st.checkbox("I will click on this web page.", key='question_1_option_2')
+    option_1_22 = st.checkbox("This Ad is attractive.", key='question_1_option_22')
+
     st.markdown("""
         <div>
             <p style='color: black; font-size: 26px;'> ----------------------------------------------------------------------------- </p>
         </div>
     """, unsafe_allow_html=True)  # 添加空行
     st.markdown("<br>", unsafe_allow_html=True)  # 添加空行
-    option_1_3 = st.checkbox("I will click on this web page.", key='question_1_option_3')
-    option_1_33 = st.checkbox("This Ad is attractive.", key='question_1_option_33')
+    
     option_1_3_description = st.markdown("""
         <div>
             <p style='font-size: 24px;'>Ad 3.</p>
@@ -115,14 +120,17 @@ def page1():
             <p style='font-size: 12px;'>Ad</p>
         </div>
     """, unsafe_allow_html=True)
+
+    option_1_3 = st.checkbox("I will click on this web page.", key='question_1_option_3')
+    option_1_33 = st.checkbox("This Ad is attractive.", key='question_1_option_33')
+
     st.markdown("""
         <div>
             <p style='color: black; font-size: 26px;'> ----------------------------------------------------------------------------- </p>
         </div>
     """, unsafe_allow_html=True)  # 添加空行
     st.markdown("<br>", unsafe_allow_html=True)  # 添加空行
-    option_1_4 = st.checkbox("I will click on this web page.", key='question_1_option_4')
-    option_1_44 = st.checkbox("This Ad is attractive.", key='question_1_option_44')
+    
     option_1_4_description = st.markdown("""
         <div>
             <p style='font-size: 24px;'>Ad 4.</p>
@@ -132,14 +140,17 @@ def page1():
             <p style='font-size: 12px;'>Ad</p>
         </div>
     """, unsafe_allow_html=True)
+
+    option_1_4 = st.checkbox("I will click on this web page.", key='question_1_option_4')
+    option_1_44 = st.checkbox("This Ad is attractive.", key='question_1_option_44')
+
     st.markdown("""
         <div>
             <p style='color: black; font-size: 26px;'> ----------------------------------------------------------------------------- </p>
         </div>
     """, unsafe_allow_html=True)  # 添加空行
     st.markdown("<br>", unsafe_allow_html=True)  # 添加空行
-    option_1_5 = st.checkbox("I will click on this web page.", key='question_1_option_5')
-    option_1_55 = st.checkbox("This Ad is attractive.", key='question_1_option_55')
+    
     option_1_5_description = st.markdown("""
         <div>
             <p style='font-size: 24px;'>Ad 5.</p>
@@ -149,14 +160,17 @@ def page1():
             <p style='font-size: 12px;'>Ad</p>
         </div>
     """, unsafe_allow_html=True)
+
+    option_1_5 = st.checkbox("I will click on this web page.", key='question_1_option_5')
+    option_1_55 = st.checkbox("This Ad is attractive.", key='question_1_option_55')
+
     st.markdown("""
         <div>
             <p style='color: black; font-size: 26px;'> ----------------------------------------------------------------------------- </p>
         </div>
     """, unsafe_allow_html=True)  # 添加空行
     st.markdown("<br>", unsafe_allow_html=True)  # 添加空行
-    option_1_6 = st.checkbox("I will click on this web page.", key='question_1_option_6')
-    option_1_66 = st.checkbox("This Ad is attractive.", key='question_1_option_66')
+    
     option_1_6_description = st.markdown("""
         <div>
             <p style='font-size: 24px;'>Ad 6.</p>
@@ -166,6 +180,9 @@ def page1():
             <p style='font-size: 12px;'>Ad</p>
         </div>
     """, unsafe_allow_html=True)
+
+    option_1_6 = st.checkbox("I will click on this web page.", key='question_1_option_6')
+    option_1_66 = st.checkbox("This Ad is attractive.", key='question_1_option_66')
 
     st.markdown("""
         <div>
@@ -234,8 +251,7 @@ def page2():
         </div>
     """, unsafe_allow_html=True)  # 添加空行
     st.markdown("<br>", unsafe_allow_html=True)  # 添加空行
-    option_2_1 = st.checkbox("I will click on this web page.", key='question_2_option_1')
-    option_2_11 = st.checkbox("This Ad is attractive.", key='question_2_option_11')
+    
     option_2_1_description = st.markdown("""
         <div>
             <p style='font-size: 24px;'>Ad 1.</p>
@@ -245,14 +261,17 @@ def page2():
             <p style='font-size: 12px;'>Ad</p>
         </div>
     """, unsafe_allow_html=True)
+
+    option_2_1 = st.checkbox("I will click on this web page.", key='question_2_option_1')
+    option_2_11 = st.checkbox("This Ad is attractive.", key='question_2_option_11')
+
     st.markdown("""
         <div>
             <p style='color: black; font-size: 26px;'> ----------------------------------------------------------------------------- </p>
         </div>
     """, unsafe_allow_html=True)  # 添加空行
     st.markdown("<br>", unsafe_allow_html=True)  # 添加空行
-    option_2_2 = st.checkbox("I will click on this web page.", key='question_2_option_2')
-    option_2_22 = st.checkbox("This Ad is attractive.", key='question_2_option_22')
+    
     option_2_2_description = st.markdown("""
         <div>
             <p style='font-size: 24px;'>Ad 2.</p>
@@ -262,14 +281,17 @@ def page2():
             <p style='font-size: 12px;'>Ad</p>
         </div>
     """, unsafe_allow_html=True)
+
+    option_2_2 = st.checkbox("I will click on this web page.", key='question_2_option_2')
+    option_2_22 = st.checkbox("This Ad is attractive.", key='question_2_option_22')
+
     st.markdown("""
         <div>
             <p style='color: black; font-size: 26px;'> ----------------------------------------------------------------------------- </p>
         </div>
     """, unsafe_allow_html=True)  # 添加空行
     st.markdown("<br>", unsafe_allow_html=True)  # 添加空行
-    option_2_3 = st.checkbox("I will click on this web page.", key='question_2_option_3')
-    option_2_33 = st.checkbox("This Ad is attractive.", key='question_2_option_33')
+    
     option_2_3_description = st.markdown("""
         <div>
             <p style='font-size: 24px;'>Ad 3.</p>
@@ -279,14 +301,17 @@ def page2():
             <p style='font-size: 12px;'>Ad</p>
         </div>
     """, unsafe_allow_html=True)
+
+    option_2_3 = st.checkbox("I will click on this web page.", key='question_2_option_3')
+    option_2_33 = st.checkbox("This Ad is attractive.", key='question_2_option_33')
+
     st.markdown("""
         <div>
             <p style='color: black; font-size: 26px;'> ----------------------------------------------------------------------------- </p>
         </div>
     """, unsafe_allow_html=True)  # 添加空行
     st.markdown("<br>", unsafe_allow_html=True)  # 添加空行
-    option_2_4 = st.checkbox("I will click on this web page.", key='question_2_option_4')
-    option_2_44 = st.checkbox("This Ad is attractive.", key='question_2_option_44')
+    
     option_2_4_description = st.markdown("""
         <div>
             <p style='font-size: 24px;'>Ad 4.</p>
@@ -296,14 +321,17 @@ def page2():
             <p style='font-size: 12px;'>Ad</p>
         </div>
     """, unsafe_allow_html=True)
+
+    option_2_4 = st.checkbox("I will click on this web page.", key='question_2_option_4')
+    option_2_44 = st.checkbox("This Ad is attractive.", key='question_2_option_44')
+
     st.markdown("""
         <div>
             <p style='color: black; font-size: 26px;'> ----------------------------------------------------------------------------- </p>
         </div>
     """, unsafe_allow_html=True)  # 添加空行
     st.markdown("<br>", unsafe_allow_html=True)  # 添加空行
-    option_2_5 = st.checkbox("I will click on this web page.", key='question_2_option_5')
-    option_2_55 = st.checkbox("This Ad is attractive.", key='question_2_option_55')
+    
     option_2_5_description = st.markdown("""
         <div>
             <p style='font-size: 24px;'>Ad 5.</p>
@@ -313,14 +341,17 @@ def page2():
             <p style='font-size: 12px;'>Ad</p>
         </div>
     """, unsafe_allow_html=True)
+
+    option_2_5 = st.checkbox("I will click on this web page.", key='question_2_option_5')
+    option_2_55 = st.checkbox("This Ad is attractive.", key='question_2_option_55')
+
     st.markdown("""
         <div>
             <p style='color: black; font-size: 26px;'> ----------------------------------------------------------------------------- </p>
         </div>
     """, unsafe_allow_html=True)  # 添加空行
     st.markdown("<br>", unsafe_allow_html=True)  # 添加空行
-    option_2_6 = st.checkbox("I will click on this web page.", key='question_2_option_6')
-    option_2_66 = st.checkbox("This Ad is attractive.", key='question_2_option_66')
+    
     option_2_6_description = st.markdown("""
         <div>
             <p style='font-size: 24px;'>Ad 6.</p>
@@ -330,6 +361,9 @@ def page2():
             <p style='font-size: 12px;'>Ad</p>
         </div>
     """, unsafe_allow_html=True)
+
+    option_2_6 = st.checkbox("I will click on this web page.", key='question_2_option_6')
+    option_2_66 = st.checkbox("This Ad is attractive.", key='question_2_option_66')
 
     st.markdown("""
         <div>
@@ -399,8 +433,7 @@ def page3():
         </div>
     """, unsafe_allow_html=True)  # 添加空行
     st.markdown("<br>", unsafe_allow_html=True)  # 添加空行
-    option_3_1 = st.checkbox("I will click on this web page.", key='question_3_option_1')
-    option_3_11 = st.checkbox("This Ad is attractive.", key='question_3_option_11')
+    
     option_3_1_description = st.markdown("""
         <div>
             <p style='font-size: 24px;'>Ad 1.</p>
@@ -410,14 +443,17 @@ def page3():
             <p style='font-size: 12px;'>Ad</p>
         </div>
     """, unsafe_allow_html=True)
+
+    option_3_1 = st.checkbox("I will click on this web page.", key='question_3_option_1')
+    option_3_11 = st.checkbox("This Ad is attractive.", key='question_3_option_11')
+
     st.markdown("""
         <div>
             <p style='color: black; font-size: 26px;'> ----------------------------------------------------------------------------- </p>
         </div>
     """, unsafe_allow_html=True)  # 添加空行
     st.markdown("<br>", unsafe_allow_html=True)  # 添加空行
-    option_3_2 = st.checkbox("I will click on this web page.", key='question_3_option_2')
-    option_3_22 = st.checkbox("This Ad is attractive.", key='question_3_option_22')
+    
     option_3_2_description = st.markdown("""
         <div>
             <p style='font-size: 24px;'>Ad 2.</p>
@@ -427,14 +463,17 @@ def page3():
             <p style='font-size: 12px;'>Ad</p>
         </div>
     """, unsafe_allow_html=True)
+
+    option_3_2 = st.checkbox("I will click on this web page.", key='question_3_option_2')
+    option_3_22 = st.checkbox("This Ad is attractive.", key='question_3_option_22')
+
     st.markdown("""
         <div>
             <p style='color: black; font-size: 26px;'> ----------------------------------------------------------------------------- </p>
         </div>
     """, unsafe_allow_html=True)  # 添加空行
     st.markdown("<br>", unsafe_allow_html=True)  # 添加空行
-    option_3_3 = st.checkbox("I will click on this web page.", key='question_3_option_3')
-    option_3_33 = st.checkbox("This Ad is attractive.", key='question_3_option_33')
+    
     option_3_3_description = st.markdown("""
         <div>
             <p style='font-size: 24px;'>Ad 3.</p>
@@ -444,14 +483,17 @@ def page3():
             <p style='font-size: 12px;'>Ad</p>
         </div>
     """, unsafe_allow_html=True)
+
+    option_3_3 = st.checkbox("I will click on this web page.", key='question_3_option_3')
+    option_3_33 = st.checkbox("This Ad is attractive.", key='question_3_option_33')
+
     st.markdown("""
         <div>
             <p style='color: black; font-size: 26px;'> ----------------------------------------------------------------------------- </p>
         </div>
     """, unsafe_allow_html=True)  # 添加空行
     st.markdown("<br>", unsafe_allow_html=True)  # 添加空行
-    option_3_4 = st.checkbox("I will click on this web page.", key='question_3_option_4')
-    option_3_44 = st.checkbox("This Ad is attractive.", key='question_3_option_44')
+    
     option_3_4_description = st.markdown("""
         <div>
             <p style='font-size: 24px;'>Ad 4.</p>
@@ -461,14 +503,17 @@ def page3():
             <p style='font-size: 12px;'>Ad</p>
         </div>
     """, unsafe_allow_html=True)
+
+    option_3_4 = st.checkbox("I will click on this web page.", key='question_3_option_4')
+    option_3_44 = st.checkbox("This Ad is attractive.", key='question_3_option_44')
+
     st.markdown("""
         <div>
             <p style='color: black; font-size: 26px;'> ----------------------------------------------------------------------------- </p>
         </div>
     """, unsafe_allow_html=True)  # 添加空行
     st.markdown("<br>", unsafe_allow_html=True)  # 添加空行
-    option_3_5 = st.checkbox("I will click on this web page.", key='question_3_option_5')
-    option_3_55 = st.checkbox("This Ad is attractive.", key='question_3_option_55')
+    
     option_3_5_description = st.markdown("""
         <div>
             <p style='font-size: 24px;'>Ad 5.</p>
@@ -478,14 +523,17 @@ def page3():
             <p style='font-size: 12px;'>Ad</p>
         </div>
     """, unsafe_allow_html=True)
+
+    option_3_5 = st.checkbox("I will click on this web page.", key='question_3_option_5')
+    option_3_55 = st.checkbox("This Ad is attractive.", key='question_3_option_55')
+
     st.markdown("""
         <div>
             <p style='color: black; font-size: 26px;'> ----------------------------------------------------------------------------- </p>
         </div>
     """, unsafe_allow_html=True)  # 添加空行
     st.markdown("<br>", unsafe_allow_html=True)  # 添加空行
-    option_3_6 = st.checkbox("I will click on this web page.", key='question_3_option_6')
-    option_3_66 = st.checkbox("This Ad is attractive.", key='question_3_option_66')
+    
     option_3_6_description = st.markdown("""
         <div>
             <p style='font-size: 24px;'>Ad 6.</p>
@@ -495,6 +543,9 @@ def page3():
             <p style='font-size: 12px;'>Ad</p>
         </div>
     """, unsafe_allow_html=True)
+
+    option_3_6 = st.checkbox("I will click on this web page.", key='question_3_option_6')
+    option_3_66 = st.checkbox("This Ad is attractive.", key='question_3_option_66')
 
     st.markdown("""
         <div>
@@ -564,8 +615,7 @@ def page4():
         </div>
     """, unsafe_allow_html=True)  # 添加空行
     st.markdown("<br>", unsafe_allow_html=True)  # 添加空行
-    option_4_1 = st.checkbox("I will click on this web page.", key='question_4_option_1')
-    option_4_11 = st.checkbox("This Ad is attractive.", key='question_4_option_11')
+    
     option_4_1_description = st.markdown("""
         <div>
             <p style='font-size: 24px;'>Ad 1.</p>
@@ -575,14 +625,17 @@ def page4():
             <p style='font-size: 12px;'>Ad</p>
         </div>
     """, unsafe_allow_html=True)
+
+    option_4_1 = st.checkbox("I will click on this web page.", key='question_4_option_1')
+    option_4_11 = st.checkbox("This Ad is attractive.", key='question_4_option_11')
+
     st.markdown("""
         <div>
             <p style='color: black; font-size: 26px;'> ----------------------------------------------------------------------------- </p>
         </div>
     """, unsafe_allow_html=True)  # 添加空行
     st.markdown("<br>", unsafe_allow_html=True)  # 添加空行
-    option_4_2 = st.checkbox("I will click on this web page.", key='question_4_option_2')
-    option_4_22 = st.checkbox("This Ad is attractive.", key='question_4_option_22')
+    
     option_4_2_description = st.markdown("""
         <div>
             <p style='font-size: 24px;'>Ad 2.</p>
@@ -592,14 +645,17 @@ def page4():
             <p style='font-size: 12px;'>Ad</p>
         </div>
     """, unsafe_allow_html=True)
+
+    option_4_2 = st.checkbox("I will click on this web page.", key='question_4_option_2')
+    option_4_22 = st.checkbox("This Ad is attractive.", key='question_4_option_22')
+
     st.markdown("""
         <div>
             <p style='color: black; font-size: 26px;'> ----------------------------------------------------------------------------- </p>
         </div>
     """, unsafe_allow_html=True)  # 添加空行
     st.markdown("<br>", unsafe_allow_html=True)  # 添加空行
-    option_4_3 = st.checkbox("I will click on this web page.", key='question_4_option_3')
-    option_4_33 = st.checkbox("This Ad is attractive.", key='question_4_option_33')
+    
     option_4_3_description = st.markdown("""
         <div>
             <p style='font-size: 24px;'>Ad 3.</p>
@@ -609,14 +665,17 @@ def page4():
             <p style='font-size: 12px;'>Ad</p>
         </div>
     """, unsafe_allow_html=True)
+
+    option_4_3 = st.checkbox("I will click on this web page.", key='question_4_option_3')
+    option_4_33 = st.checkbox("This Ad is attractive.", key='question_4_option_33')
+
     st.markdown("""
         <div>
             <p style='color: black; font-size: 26px;'> ----------------------------------------------------------------------------- </p>
         </div>
     """, unsafe_allow_html=True)  # 添加空行
     st.markdown("<br>", unsafe_allow_html=True)  # 添加空行
-    option_4_4 = st.checkbox("I will click on this web page.", key='question_4_option_4')
-    option_4_44 = st.checkbox("This Ad is attractive.", key='question_4_option_44')
+    
     option_4_4_description = st.markdown("""
         <div>
             <p style='font-size: 24px;'>Ad 4.</p>
@@ -626,14 +685,17 @@ def page4():
             <p style='font-size: 12px;'>Ad</p>
         </div>
     """, unsafe_allow_html=True)
+
+    option_4_4 = st.checkbox("I will click on this web page.", key='question_4_option_4')
+    option_4_44 = st.checkbox("This Ad is attractive.", key='question_4_option_44')
+
     st.markdown("""
         <div>
             <p style='color: black; font-size: 26px;'> ----------------------------------------------------------------------------- </p>
         </div>
     """, unsafe_allow_html=True)  # 添加空行
     st.markdown("<br>", unsafe_allow_html=True)  # 添加空行
-    option_4_5 = st.checkbox("I will click on this web page.", key='question_4_option_5')
-    option_4_55 = st.checkbox("This Ad is attractive.", key='question_4_option_55')
+    
     option_4_5_description = st.markdown("""
         <div>
             <p style='font-size: 24px;'>Ad 5.</p>
@@ -643,14 +705,17 @@ def page4():
             <p style='font-size: 12px;'>Ad</p>
         </div>
     """, unsafe_allow_html=True)
+
+    option_4_5 = st.checkbox("I will click on this web page.", key='question_4_option_5')
+    option_4_55 = st.checkbox("This Ad is attractive.", key='question_4_option_55')
+
     st.markdown("""
         <div>
             <p style='color: black; font-size: 26px;'> ----------------------------------------------------------------------------- </p>
         </div>
     """, unsafe_allow_html=True)  # 添加空行
     st.markdown("<br>", unsafe_allow_html=True)  # 添加空行
-    option_4_6 = st.checkbox("I will click on this web page.", key='question_4_option_6')
-    option_4_66 = st.checkbox("This Ad is attractive.", key='question_4_option_66')
+    
     option_4_6_description = st.markdown("""
         <div>
             <p style='font-size: 24px;'>Ad 6.</p>
@@ -660,6 +725,9 @@ def page4():
             <p style='font-size: 12px;'>Ad</p>
         </div>
     """, unsafe_allow_html=True)
+
+    option_4_6 = st.checkbox("I will click on this web page.", key='question_4_option_6')
+    option_4_66 = st.checkbox("This Ad is attractive.", key='question_4_option_66')
 
     st.markdown("""
         <div>
@@ -729,8 +797,7 @@ def page5():
         </div>
     """, unsafe_allow_html=True)  # 添加空行
     st.markdown("<br>", unsafe_allow_html=True)  # 添加空行
-    option_5_1 = st.checkbox("I will click on this web page.", key='question_5_option_1')
-    option_5_11 = st.checkbox("This Ad is attractive.", key='question_5_option_11')
+    
     option_5_1_description = st.markdown("""
         <div>
             <p style='font-size: 24px;'>Ad 1.</p>
@@ -740,14 +807,17 @@ def page5():
             <p style='font-size: 12px;'>Ad</p>
         </div>
     """, unsafe_allow_html=True)
+
+    option_5_1 = st.checkbox("I will click on this web page.", key='question_5_option_1')
+    option_5_11 = st.checkbox("This Ad is attractive.", key='question_5_option_11')
+
     st.markdown("""
         <div>
             <p style='color: black; font-size: 26px;'> ----------------------------------------------------------------------------- </p>
         </div>
     """, unsafe_allow_html=True)  # 添加空行
     st.markdown("<br>", unsafe_allow_html=True)  # 添加空行
-    option_5_2 = st.checkbox("I will click on this web page.", key='question_5_option_2')
-    option_5_22 = st.checkbox("This Ad is attractive.", key='question_5_option_22')
+    
     option_5_2_description = st.markdown("""
         <div>
             <p style='font-size: 24px;'>Ad 2.</p>
@@ -757,14 +827,17 @@ def page5():
             <p style='font-size: 12px;'>Ad</p>
         </div>
     """, unsafe_allow_html=True)
+
+    option_5_2 = st.checkbox("I will click on this web page.", key='question_5_option_2')
+    option_5_22 = st.checkbox("This Ad is attractive.", key='question_5_option_22')
+
     st.markdown("""
         <div>
             <p style='color: black; font-size: 26px;'> ----------------------------------------------------------------------------- </p>
         </div>
     """, unsafe_allow_html=True)  # 添加空行
     st.markdown("<br>", unsafe_allow_html=True)  # 添加空行
-    option_5_3 = st.checkbox("I will click on this web page.", key='question_5_option_3')
-    option_5_33 = st.checkbox("This Ad is attractive.", key='question_5_option_33')
+    
     option_5_3_description = st.markdown("""
         <div>
             <p style='font-size: 24px;'>Ad 3.</p>
@@ -774,14 +847,17 @@ def page5():
             <p style='font-size: 12px;'>Ad</p>
         </div>
     """, unsafe_allow_html=True)
+
+    option_5_3 = st.checkbox("I will click on this web page.", key='question_5_option_3')
+    option_5_33 = st.checkbox("This Ad is attractive.", key='question_5_option_33')
+
     st.markdown("""
         <div>
             <p style='color: black; font-size: 26px;'> ----------------------------------------------------------------------------- </p>
         </div>
     """, unsafe_allow_html=True)  # 添加空行
     st.markdown("<br>", unsafe_allow_html=True)  # 添加空行
-    option_5_4 = st.checkbox("I will click on this web page.", key='question_5_option_4')
-    option_5_44 = st.checkbox("This Ad is attractive.", key='question_5_option_44')
+    
     option_5_4_description = st.markdown("""
         <div>
             <p style='font-size: 24px;'>Ad 4.</p>
@@ -791,14 +867,17 @@ def page5():
             <p style='font-size: 12px;'>Ad</p>
         </div>
     """, unsafe_allow_html=True)
+
+    option_5_4 = st.checkbox("I will click on this web page.", key='question_5_option_4')
+    option_5_44 = st.checkbox("This Ad is attractive.", key='question_5_option_44')
+
     st.markdown("""
         <div>
             <p style='color: black; font-size: 26px;'> ----------------------------------------------------------------------------- </p>
         </div>
     """, unsafe_allow_html=True)  # 添加空行
     st.markdown("<br>", unsafe_allow_html=True)  # 添加空行
-    option_5_5 = st.checkbox("I will click on this web page.", key='question_5_option_5')
-    option_5_55 = st.checkbox("This Ad is attractive.", key='question_5_option_55')
+    
     option_5_5_description = st.markdown("""
         <div>
             <p style='font-size: 24px;'>Ad 5.</p>
@@ -808,14 +887,17 @@ def page5():
             <p style='font-size: 12px;'>Ad</p>
         </div>
     """, unsafe_allow_html=True)
+
+    option_5_5 = st.checkbox("I will click on this web page.", key='question_5_option_5')
+    option_5_55 = st.checkbox("This Ad is attractive.", key='question_5_option_55')
+
     st.markdown("""
         <div>
             <p style='color: black; font-size: 26px;'> ----------------------------------------------------------------------------- </p>
         </div>
     """, unsafe_allow_html=True)  # 添加空行
     st.markdown("<br>", unsafe_allow_html=True)  # 添加空行
-    option_5_6 = st.checkbox("I will click on this web page.", key='question_4_option_6')
-    option_5_66 = st.checkbox("This Ad is attractive.", key='question_5_option_66')
+    
     option_5_6_description = st.markdown("""
         <div>
             <p style='font-size: 24px;'>Ad 6.</p>
@@ -825,6 +907,9 @@ def page5():
             <p style='font-size: 12px;'>Ad</p>
         </div>
     """, unsafe_allow_html=True)
+
+    option_5_6 = st.checkbox("I will click on this web page.", key='question_4_option_6')
+    option_5_66 = st.checkbox("This Ad is attractive.", key='question_5_option_66')
 
     st.markdown("""
         <div>
@@ -894,8 +979,7 @@ def page6():
         </div>
     """, unsafe_allow_html=True)  # 添加空行
     st.markdown("<br>", unsafe_allow_html=True)  # 添加空行
-    option_6_1 = st.checkbox("I will click on this web page.", key='question_6_option_1')
-    option_6_11 = st.checkbox("This Ad is attractive.", key='question_6_option_11')
+    
     option_6_1_description = st.markdown("""
         <div>
             <p style='font-size: 24px;'>Ad 1.</p>
@@ -905,14 +989,17 @@ def page6():
             <p style='font-size: 12px;'>Ad</p>
         </div>
     """, unsafe_allow_html=True)
+
+    option_6_1 = st.checkbox("I will click on this web page.", key='question_6_option_1')
+    option_6_11 = st.checkbox("This Ad is attractive.", key='question_6_option_11')
+
     st.markdown("""
         <div>
             <p style='color: black; font-size: 26px;'> ----------------------------------------------------------------------------- </p>
         </div>
     """, unsafe_allow_html=True)  # 添加空行
     st.markdown("<br>", unsafe_allow_html=True)  # 添加空行
-    option_6_2 = st.checkbox("I will click on this web page.", key='question_6_option_2')
-    option_6_22 = st.checkbox("This Ad is attractive.", key='question_6_option_22')
+    
     option_6_2_description = st.markdown("""
         <div>
             <p style='font-size: 24px;'>Ad 2.</p>
@@ -922,14 +1009,17 @@ def page6():
             <p style='font-size: 12px;'>Ad</p>
         </div>
     """, unsafe_allow_html=True)
+
+    option_6_2 = st.checkbox("I will click on this web page.", key='question_6_option_2')
+    option_6_22 = st.checkbox("This Ad is attractive.", key='question_6_option_22')
+
     st.markdown("""
         <div>
             <p style='color: black; font-size: 26px;'> ----------------------------------------------------------------------------- </p>
         </div>
     """, unsafe_allow_html=True)  # 添加空行
     st.markdown("<br>", unsafe_allow_html=True)  # 添加空行
-    option_6_3 = st.checkbox("I will click on this web page.", key='question_6_option_3')
-    option_6_33 = st.checkbox("This Ad is attractive.", key='question_6_option_33')
+    
     option_6_3_description = st.markdown("""
         <div>
             <p style='font-size: 24px;'>Ad 3.</p>
@@ -939,14 +1029,17 @@ def page6():
             <p style='font-size: 12px;'>Ad</p>
         </div>
     """, unsafe_allow_html=True)
+
+    option_6_3 = st.checkbox("I will click on this web page.", key='question_6_option_3')
+    option_6_33 = st.checkbox("This Ad is attractive.", key='question_6_option_33')
+
     st.markdown("""
         <div>
             <p style='color: black; font-size: 26px;'> ----------------------------------------------------------------------------- </p>
         </div>
     """, unsafe_allow_html=True)  # 添加空行
     st.markdown("<br>", unsafe_allow_html=True)  # 添加空行
-    option_6_4 = st.checkbox("I will click on this web page.", key='question_6_option_4')
-    option_6_44 = st.checkbox("This Ad is attractive.", key='question_6_option_44')
+    
     option_6_4_description = st.markdown("""
         <div>
             <p style='font-size: 24px;'>Ad 4.</p>
@@ -956,14 +1049,17 @@ def page6():
             <p style='font-size: 12px;'>Ad</p>
         </div>
     """, unsafe_allow_html=True)
+
+    option_6_4 = st.checkbox("I will click on this web page.", key='question_6_option_4')
+    option_6_44 = st.checkbox("This Ad is attractive.", key='question_6_option_44')
+
     st.markdown("""
         <div>
             <p style='color: black; font-size: 26px;'> ----------------------------------------------------------------------------- </p>
         </div>
     """, unsafe_allow_html=True)  # 添加空行
     st.markdown("<br>", unsafe_allow_html=True)  # 添加空行
-    option_6_5 = st.checkbox("I will click on this web page.", key='question_6_option_5')
-    option_6_55 = st.checkbox("This Ad is attractive.", key='question_6_option_55')
+    
     option_6_5_description = st.markdown("""
         <div>
             <p style='font-size: 24px;'>Ad 5.</p>
@@ -973,14 +1069,17 @@ def page6():
             <p style='font-size: 12px;'>Ad</p>
         </div>
     """, unsafe_allow_html=True)
+
+    option_6_5 = st.checkbox("I will click on this web page.", key='question_6_option_5')
+    option_6_55 = st.checkbox("This Ad is attractive.", key='question_6_option_55')
+
     st.markdown("""
         <div>
             <p style='color: black; font-size: 26px;'> ----------------------------------------------------------------------------- </p>
         </div>
     """, unsafe_allow_html=True)  # 添加空行
     st.markdown("<br>", unsafe_allow_html=True)  # 添加空行
-    option_6_6 = st.checkbox("I will click on this web page.", key='question_6_option_6')
-    option_6_66 = st.checkbox("This Ad is attractive.", key='question_6_option_66')
+    
     option_6_6_description = st.markdown("""
         <div>
             <p style='font-size: 24px;'>Ad 6.</p>
@@ -990,6 +1089,9 @@ def page6():
             <p style='font-size: 12px;'>Ad</p>
         </div>
     """, unsafe_allow_html=True)
+
+    option_6_6 = st.checkbox("I will click on this web page.", key='question_6_option_6')
+    option_6_66 = st.checkbox("This Ad is attractive.", key='question_6_option_66')
 
     st.markdown("""
         <div>
@@ -1077,14 +1179,13 @@ def page7():
     """, unsafe_allow_html=True)  # 添加空行
     st.markdown("<br>", unsafe_allow_html=True)  # 添加空行
 
-    option_7_0 = st.checkbox("I think this email is relevant to me.", key='question_7_option_0')
-    option_7_00 = st.checkbox("This email is attractive.", key='question_7_option_00')
-
     # 广告图片
     st.markdown("""generalized email 1""", unsafe_allow_html=True)
     email_image = "email_musecore.jpg"
     st.image(email_image, width=500)
 
+    option_7_0 = st.checkbox("I think this email is relevant to me.", key='question_7_option_0')
+    option_7_00 = st.checkbox("This email is attractive.", key='question_7_option_00')
 
     st.markdown("""
         <div>
@@ -1093,8 +1194,6 @@ def page7():
     """, unsafe_allow_html=True)  # 添加空行
     st.markdown("<br>", unsafe_allow_html=True)  # 添加空行
 
-    option_7_1 = st.checkbox("I think this email is relevant to me.", key='question_7_option_1')
-    option_7_11 = st.checkbox("This email is attractive.", key='question_7_option_11')
 
     email_preview_7_1 = """ personalized email 2
     ## Expand Your Musical Horizons - Exclusive music Lessons Offer Inside! ##
@@ -1121,15 +1220,15 @@ def page7():
     """
     option_7_1_description = st.markdown(email_preview_7_1, unsafe_allow_html=True)
 
+    option_7_1 = st.checkbox("I think this email is relevant to me.", key='question_7_option_1')
+    option_7_11 = st.checkbox("This email is attractive.", key='question_7_option_11')
+
     st.markdown("""
         <div>
             <p style='color: black; font-size: 26px;'> ----------------------------------------------------------------------------- </p>
         </div>
     """, unsafe_allow_html=True)  # 添加空行
     st.markdown("<br>", unsafe_allow_html=True)  # 添加空行
-
-    option_7_2 = st.checkbox("I think this email is relevant to me.", key='question_7_option_2')
-    option_7_22 = st.checkbox("This email is attractive.", key='question_7_option_22')
 
     email_preview_7_2 = """ personalized email 3
     ## Try our newest music course! ##
@@ -1156,6 +1255,9 @@ def page7():
     
     """
     option_7_2_description = st.markdown(email_preview_7_2, unsafe_allow_html=True)
+
+    option_7_2 = st.checkbox("I think this email is relevant to me.", key='question_7_option_2')
+    option_7_22 = st.checkbox("This email is attractive.", key='question_7_option_22')
 
     st.markdown("""
         <div>
@@ -1210,9 +1312,6 @@ def page8():
     """, unsafe_allow_html=True)  # 添加空行
     st.markdown("<br>", unsafe_allow_html=True)  # 添加空行
 
-    option_8_0 = st.checkbox("I think this email is relevant to me.", key='question_8_option_0')
-    option_8_00 = st.checkbox("This email is attractive.", key='question_8_option_00')
-
     email_preview_8_0 = """ generalized email 1
     ## Find your next luxury break with Beyond Queues: Luxury Travel ##
 
@@ -1230,6 +1329,9 @@ def page8():
     """
     option_8_0_description = st.markdown(email_preview_8_0, unsafe_allow_html=True)
 
+    option_8_0 = st.checkbox("I think this email is relevant to me.", key='question_8_option_0')
+    option_8_00 = st.checkbox("This email is attractive.", key='question_8_option_00')
+
 
     st.markdown("""
         <div>
@@ -1237,9 +1339,6 @@ def page8():
         </div>
     """, unsafe_allow_html=True)  # 添加空行
     st.markdown("<br>", unsafe_allow_html=True)  # 添加空行
-
-    option_8_1 = st.checkbox("I think this email is relevant to me.", key='question_8_option_1')
-    option_8_11 = st.checkbox("This email is attractive.", key='question_8_option_11')
 
     email_preview_8_1 = """ personalized email 2
     ## Your Luxury Travel summer specials. ##
@@ -1262,15 +1361,15 @@ def page8():
     """
     option_8_1_description = st.markdown(email_preview_8_1, unsafe_allow_html=True)
 
+    option_8_1 = st.checkbox("I think this email is relevant to me.", key='question_8_option_1')
+    option_8_11 = st.checkbox("This email is attractive.", key='question_8_option_11')
+
     st.markdown("""
         <div>
             <p style='color: black; font-size: 26px;'> ----------------------------------------------------------------------------- </p>
         </div>
     """, unsafe_allow_html=True)  # 添加空行
     st.markdown("<br>", unsafe_allow_html=True)  # 添加空行
-
-    option_8_2 = st.checkbox("I think this email is relevant to me.", key='question_8_option_2')
-    option_8_22 = st.checkbox("This email is attractive.", key='question_8_option_22')
 
     email_preview_8_2 = """ personalized email 3
     ## Embrace Tranquility - Exclusive Vacation Offer Inside! ##
@@ -1296,6 +1395,9 @@ def page8():
     
     """
     option_8_2_description = st.markdown(email_preview_8_2, unsafe_allow_html=True)
+
+    option_8_2 = st.checkbox("I think this email is relevant to me.", key='question_8_option_2')
+    option_8_22 = st.checkbox("This email is attractive.", key='question_8_option_22')
 
     st.markdown("""
         <div>
@@ -1350,9 +1452,6 @@ def page9():
     """, unsafe_allow_html=True)  # 添加空行
     st.markdown("<br>", unsafe_allow_html=True)  # 添加空行
 
-    option_9_0 = st.checkbox("I think this email is relevant to me.", key='question_9_option_0')
-    option_9_00 = st.checkbox("This email is attractive.", key='question_9_option_00')
-
     email_preview_9_0 = """ generalized email 1
     ## A Guide to Vitamin C: Health Benefits and Best Sources ##
 
@@ -1372,15 +1471,15 @@ def page9():
     """
     option_9_0_description = st.markdown(email_preview_9_0, unsafe_allow_html=True)
 
+    option_9_0 = st.checkbox("I think this email is relevant to me.", key='question_9_option_0')
+    option_9_00 = st.checkbox("This email is attractive.", key='question_9_option_00')
+
     st.markdown("""
         <div>
             <p style='color: black; font-size: 26px;'> ----------------------------------------------------------------------------- </p>
         </div>
     """, unsafe_allow_html=True)  # 添加空行
     st.markdown("<br>", unsafe_allow_html=True)  # 添加空行
-
-    option_9_1 = st.checkbox("I think this email is relevant to me.", key='question_9_option_1')
-    option_9_11 = st.checkbox("This email is attractive.", key='question_9_option_11')
 
     email_preview_9_1 = """ personalized email 2
     ## Elevate Your Immune System - Exclusive Vitamin C Offer Inside! ##
@@ -1407,15 +1506,15 @@ def page9():
     """
     option_9_1_description = st.markdown(email_preview_9_1, unsafe_allow_html=True)
 
+    option_9_1 = st.checkbox("I think this email is relevant to me.", key='question_9_option_1')
+    option_9_11 = st.checkbox("This email is attractive.", key='question_9_option_11')
+
     st.markdown("""
         <div>
             <p style='color: black; font-size: 26px;'> ----------------------------------------------------------------------------- </p>
         </div>
     """, unsafe_allow_html=True)  # 添加空行
     st.markdown("<br>", unsafe_allow_html=True)  # 添加空行
-
-    option_9_2 = st.checkbox("I think this email is relevant to me.", key='question_9_option_2')
-    option_9_22 = st.checkbox("This email is attractive.", key='question_9_option_22')
 
     email_preview_9_2 = """ personalized email 3
     ## Best Vitamin C products especially for you! ##
@@ -1439,6 +1538,9 @@ def page9():
     
     """
     option_9_2_description = st.markdown(email_preview_9_2, unsafe_allow_html=True)
+
+    option_9_2 = st.checkbox("I think this email is relevant to me.", key='question_9_option_2')
+    option_9_22 = st.checkbox("This email is attractive.", key='question_9_option_22')
 
     st.markdown("""
         <div>
@@ -1513,8 +1615,7 @@ def page10():
         </div>
     """, unsafe_allow_html=True)  # 添加空行
     st.markdown("<br>", unsafe_allow_html=True)  # 添加空行
-    option_10_1 = st.checkbox("I will click on this web page.", key='question_10_option_1')
-    option_10_11 = st.checkbox("This Ad is attractive.", key='question_10_option_11')
+    
     # 广告图片
     ad_image = "ad_jacket.jpg"
     st.image(ad_image, width=500)
@@ -1530,14 +1631,16 @@ def page10():
     """
     option_10_1_description = st.markdown(ad_description_10_1, unsafe_allow_html=True)
 
+    option_10_1 = st.checkbox("I will click on this web page.", key='question_10_option_1')
+    option_10_11 = st.checkbox("This Ad is attractive.", key='question_10_option_11')
+
     st.markdown("""
         <div>
             <p style='color: black; font-size: 26px;'> ----------------------------------------------------------------------------- </p>
         </div>
     """, unsafe_allow_html=True)  # 添加空行
     st.markdown("<br>", unsafe_allow_html=True)  # 添加空行
-    option_10_2 = st.checkbox("I will click on this web page.", key='question_10_option_2')
-    option_10_22 = st.checkbox("This Ad is attractive.", key='question_10_option_22')
+    
     # 广告图片
     ad_image = "ad_jacket.jpg"
     st.image(ad_image, width=500)
@@ -1553,14 +1656,16 @@ def page10():
     """
     option_10_2_description = st.markdown(ad_description_10_2, unsafe_allow_html=True)
 
+    option_10_2 = st.checkbox("I will click on this web page.", key='question_10_option_2')
+    option_10_22 = st.checkbox("This Ad is attractive.", key='question_10_option_22')
+
     st.markdown("""
         <div>
             <p style='color: black; font-size: 26px;'> ----------------------------------------------------------------------------- </p>
         </div>
     """, unsafe_allow_html=True)  # 添加空行
     st.markdown("<br>", unsafe_allow_html=True)  # 添加空行
-    option_10_3 = st.checkbox("I will click on this web page.", key='question_10_option_3')
-    option_10_33 = st.checkbox("This Ad is attractive.", key='question_10_option_33')
+    
     # 广告图片
     ad_image = "ad_jacket.jpg"
     st.image(ad_image, width=500)
@@ -1576,14 +1681,16 @@ def page10():
     """
     option_10_3_description = st.markdown(ad_description_10_3, unsafe_allow_html=True)
 
+    option_10_3 = st.checkbox("I will click on this web page.", key='question_10_option_3')
+    option_10_33 = st.checkbox("This Ad is attractive.", key='question_10_option_33')
+
     st.markdown("""
         <div>
             <p style='color: black; font-size: 26px;'> ----------------------------------------------------------------------------- </p>
         </div>
     """, unsafe_allow_html=True)  # 添加空行
     st.markdown("<br>", unsafe_allow_html=True)  # 添加空行
-    option_10_4 = st.checkbox("I will click on this web page.", key='question_10_option_4')
-    option_10_44 = st.checkbox("This Ad is attractive.", key='question_10_option_44')
+    
     # 广告图片
     ad_image = "ad_jacket.jpg"
     st.image(ad_image, width=500)
@@ -1599,14 +1706,16 @@ def page10():
     """
     option_10_4_description = st.markdown(ad_description_10_4, unsafe_allow_html=True)
 
+    option_10_4 = st.checkbox("I will click on this web page.", key='question_10_option_4')
+    option_10_44 = st.checkbox("This Ad is attractive.", key='question_10_option_44')
+
     st.markdown("""
         <div>
             <p style='color: black; font-size: 26px;'> ----------------------------------------------------------------------------- </p>
         </div>
     """, unsafe_allow_html=True)  # 添加空行
     st.markdown("<br>", unsafe_allow_html=True)  # 添加空行
-    option_10_5 = st.checkbox("I will click on this web page.", key='question_10_option_5')
-    option_10_55 = st.checkbox("This Ad is attractive.", key='question_10_option_55')
+    
     # 广告图片
     ad_image = "ad_jacket.jpg"
     st.image(ad_image, width=500)
@@ -1622,14 +1731,16 @@ def page10():
     """
     option_10_5_description = st.markdown(ad_description_10_5, unsafe_allow_html=True)
 
+    option_10_5 = st.checkbox("I will click on this web page.", key='question_10_option_5')
+    option_10_55 = st.checkbox("This Ad is attractive.", key='question_10_option_55')
+
     st.markdown("""
         <div>
             <p style='color: black; font-size: 26px;'> ----------------------------------------------------------------------------- </p>
         </div>
     """, unsafe_allow_html=True)  # 添加空行
     st.markdown("<br>", unsafe_allow_html=True)  # 添加空行
-    option_10_6 = st.checkbox("I will click on this web page.", key='question_10_option_6')
-    option_10_66 = st.checkbox("This Ad is attractive.", key='question_10_option_66')
+    
     # 广告图片
     ad_image = "ad_jacket.jpg"
     st.image(ad_image, width=500)
@@ -1644,6 +1755,9 @@ def page10():
     <p style='color: blue; font-size: 14px;'>[Shop Now]</p>
     """
     option_10_6_description = st.markdown(ad_description_10_6, unsafe_allow_html=True)
+
+    option_10_6 = st.checkbox("I will click on this web page.", key='question_10_option_6')
+    option_10_66 = st.checkbox("This Ad is attractive.", key='question_10_option_66')
 
     st.markdown("""
         <div>
@@ -1713,8 +1827,7 @@ def page11():
         </div>
     """, unsafe_allow_html=True)  # 添加空行
     st.markdown("<br>", unsafe_allow_html=True)  # 添加空行
-    option_11_1 = st.checkbox("I will click on this web page.", key='question_11_option_1')
-    option_11_11 = st.checkbox("This Ad is attractive.", key='question_11_option_11')
+    
     # 广告图片
     ad_image = "ad_vacation.jpg"
     st.image(ad_image, width=500)
@@ -1729,14 +1842,16 @@ def page11():
     """
     option_11_1_description = st.markdown(ad_description_11_1, unsafe_allow_html=True)
 
+    option_11_1 = st.checkbox("I will click on this web page.", key='question_11_option_1')
+    option_11_11 = st.checkbox("This Ad is attractive.", key='question_11_option_11')
+
     st.markdown("""
         <div>
             <p style='color: black; font-size: 26px;'> ----------------------------------------------------------------------------- </p>
         </div>
     """, unsafe_allow_html=True)  # 添加空行
     st.markdown("<br>", unsafe_allow_html=True)  # 添加空行
-    option_11_2 = st.checkbox("I will click on this web page.", key='question_11_option_2')
-    option_11_22 = st.checkbox("This Ad is attractive.", key='question_11_option_22')
+    
     # 广告图片
     ad_image = "ad_vacation.jpg"
     st.image(ad_image, width=500)
@@ -1752,14 +1867,16 @@ def page11():
     """
     option_11_2_description = st.markdown(ad_description_11_2, unsafe_allow_html=True)
 
+    option_11_2 = st.checkbox("I will click on this web page.", key='question_11_option_2')
+    option_11_22 = st.checkbox("This Ad is attractive.", key='question_11_option_22')
+
     st.markdown("""
         <div>
             <p style='color: black; font-size: 26px;'> ----------------------------------------------------------------------------- </p>
         </div>
     """, unsafe_allow_html=True)  # 添加空行
     st.markdown("<br>", unsafe_allow_html=True)  # 添加空行
-    option_11_3 = st.checkbox("I will click on this web page.", key='question_11_option_3')
-    option_11_33 = st.checkbox("This Ad is attractive.", key='question_11_option_33')
+    
     # 广告图片
     ad_image = "ad_vacation.jpg"
     st.image(ad_image, width=500)
@@ -1775,14 +1892,16 @@ def page11():
     """
     option_11_3_description = st.markdown(ad_description_11_3, unsafe_allow_html=True)
 
+    option_11_3 = st.checkbox("I will click on this web page.", key='question_11_option_3')
+    option_11_33 = st.checkbox("This Ad is attractive.", key='question_11_option_33')
+
     st.markdown("""
         <div>
             <p style='color: black; font-size: 26px;'> ----------------------------------------------------------------------------- </p>
         </div>
     """, unsafe_allow_html=True)  # 添加空行
     st.markdown("<br>", unsafe_allow_html=True)  # 添加空行
-    option_11_4 = st.checkbox("I will click on this web page.", key='question_11_option_4')
-    option_11_44 = st.checkbox("This Ad is attractive.", key='question_11_option_44')
+    
     # 广告图片
     ad_image = "ad_vacation.jpg"
     st.image(ad_image, width=500)
@@ -1800,14 +1919,16 @@ def page11():
     """
     option_11_4_description = st.markdown(ad_description_11_4, unsafe_allow_html=True)
 
+    option_11_4 = st.checkbox("I will click on this web page.", key='question_11_option_4')
+    option_11_44 = st.checkbox("This Ad is attractive.", key='question_11_option_44')
+
     st.markdown("""
         <div>
             <p style='color: black; font-size: 26px;'> ----------------------------------------------------------------------------- </p>
         </div>
     """, unsafe_allow_html=True)  # 添加空行
     st.markdown("<br>", unsafe_allow_html=True)  # 添加空行
-    option_11_5 = st.checkbox("I will click on this web page.", key='question_11_option_5')
-    option_11_55 = st.checkbox("This Ad is attractive.", key='question_11_option_55')
+    
     # 广告图片
     ad_image = "ad_vacation.jpg"
     st.image(ad_image, width=500)
@@ -1823,14 +1944,16 @@ def page11():
     """
     option_11_5_description = st.markdown(ad_description_11_5, unsafe_allow_html=True)
 
+    option_11_5 = st.checkbox("I will click on this web page.", key='question_11_option_5')
+    option_11_55 = st.checkbox("This Ad is attractive.", key='question_11_option_55')
+
     st.markdown("""
         <div>
             <p style='color: black; font-size: 26px;'> ----------------------------------------------------------------------------- </p>
         </div>
     """, unsafe_allow_html=True)  # 添加空行
     st.markdown("<br>", unsafe_allow_html=True)  # 添加空行
-    option_11_6 = st.checkbox("I will click on this web page.", key='question_11_option_6')
-    option_11_66 = st.checkbox("This Ad is attractive.", key='question_11_option_66')
+    
     # 广告图片
     ad_image = "ad_vacation.jpg"
     st.image(ad_image, width=500)
@@ -1845,6 +1968,9 @@ def page11():
     <p style='color: blue; font-size: 14px;'>[Shop Now]</p>
     """
     option_11_6_description = st.markdown(ad_description_11_6, unsafe_allow_html=True)
+
+    option_11_6 = st.checkbox("I will click on this web page.", key='question_11_option_6')
+    option_11_66 = st.checkbox("This Ad is attractive.", key='question_11_option_66')
 
     st.markdown("""
         <div>
