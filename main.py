@@ -44,10 +44,10 @@ def page0():
     # 添加问题和选项
     question_1 = st.markdown("""
         <div>
-            <p style='color: black; font-size: 26px;'> Thank you for participating in our user study. This user study is part of a Bachelor Thesis. We trained a language model that can output different styles of text for online advertisements, and we want to guide and help advertisers and marketers through this model. There are three tasks in this survey. You need to complete all the three tasks.</p>
+            <p style='color: black; font-size: 26px;'> Thank you for participating in our user study. This user study is part of a Bachelor Thesis. We trained a language model that can output different styles of text for online advertisements, and we want to guide and help advertisers and marketers to create intelligent text through this model. There are three tasks in this survey. You need to complete all three tasks. </p>
             <p style='color: black; font-size: 26px;'> ------------------------------------------------------ </p>
-            <p style='color: black; font-size: 24px;'> The first task is about online advertising, which simulates the online advertisements that may appear when we use Google search engine.</p>
-            <p style='color: brown; font-size: 24px;'> You will see in each advertisement with two options, "I will click on this web page." means that you want to click it subjectively, and "This Ad is attractive." means that you think the advertisement itself is attractive to other people. You can of course choose both or neither. </p>
+            <p style='color: black; font-size: 24px;'> The first task is about online advertising, which simulates the online advertisements that may appear when we use the Google search engine.</p>
+            <p style='color: brown; font-size: 24px;'> You will see in each advertisement with two options, "I will click on this web page." which means that you want to click it subjectively, and "This Ad is attractive." which means that you think the advertisement itself is attractive to other people. You can of course choose both or neither. </p>
         </div>
     """, unsafe_allow_html=True)
 
@@ -77,7 +77,8 @@ def page1():
     # 添加问题和选项
     question_1 = st.markdown("""
         <div>
-            <p style='color: black; font-size: 26px;'> 1. Imagine now you want to buy a pair of women's pants, so you see the following six advertisements in the search engine, which one (which ones) do you want to click the most? Please read the six advertisements and answer the questions.</p>
+            <p style='color: black; font-size: 26px;'> 1. Imagine now you want to buy a pair of women's pants, so you see the following six advertisements in the search engine, which one (which ones) do you want to click the most? </p>
+            <p style='color: black; font-size: 26px;'> Please read the six advertisements and answer the questions.</p>
             <p style='color: brown; font-size: 18px;'>Women's pants: Women's pants are a versatile and essential part of any woman's wardrobe. They come in various styles, fits, and fabrics, offering comfort and style for different occasions. </p>
         </div>
     """, unsafe_allow_html=True)
@@ -254,7 +255,8 @@ def page2():
     # 添加问题和选项
     question_2 = st.markdown("""
         <div>
-            <p style='color: black; font-size: 26px;'> 1. Imagine now you want to buy a phone good at taking photos, so you see the following six advertisements in the search engine, which one (which ones) do you want to click the most? Please read the six advertisements and answer the questions.</p>
+            <p style='color: black; font-size: 26px;'> 1. Imagine now you want to buy a phone good at taking photos, so you see the following six advertisements in the search engine, which one (which ones) do you want to click the most? </p>
+            <p style='color: black; font-size: 26px;'> Please read the six advertisements and answer the questions.</p>
             <p style='color: brown; font-size: 18px;'> Phone good at taking photos: A phone good at taking photos is a phone that is excellent at taking pictures and video. It usually comes with better cameras and other equipment than similarly priced phones. The opposite is a mobile phone that emphasizes gaming performance. </p>
         </div>
     """, unsafe_allow_html=True)
@@ -432,7 +434,8 @@ def page3():
     # 添加问题和选项
     question_3 = st.markdown("""
         <div>
-            <p style='color: black; font-size: 26px;'> 1. Imagine now you want to buy books in the genre of romance, so you see the following six advertisements in the search engine, which one (which ones) do you want to click the most? Please read the six advertisements and answer the questions.</p>
+            <p style='color: black; font-size: 26px;'> 1. Imagine now you want to buy books in the genre of romance, so you see the following six advertisements in the search engine, which one (which ones) do you want to click the most? </p>
+            <p style='color: black; font-size: 26px;'> Please read the six advertisements and answer the questions.</p>
             <p style='color: brown; font-size: 18px;'> Books in the genre of romance: The romance genre is a popular category of books that consistently churns out bestsellers. The aim of the genre is simple, showcasing a love story where two people overcome adversity to obtain their happily ever after. </p>
         </div>
     """, unsafe_allow_html=True)
@@ -610,7 +613,8 @@ def page4():
     # 添加问题和选项
     question_4 = st.markdown("""
         <div>
-            <p style='color: black; font-size: 26px;'> 1. Imagine now you want to buy noise canceling headphones, so you see the following six advertisements in the search engine, which one (which ones) do you want to click the most? Please read the six advertisements and answer the questions.</p>
+            <p style='color: black; font-size: 26px;'> 1. Imagine now you want to buy noise canceling headphones, so you see the following six advertisements in the search engine, which one (which ones) do you want to click the most? </p>
+            <p style='color: black; font-size: 26px;'> Please read the six advertisements and answer the questions.</p>
             <p style='color: brown; font-size: 18px;'> Noise canceling headphones: Noise-cancelling headphones suppress unwanted ambient sounds using active noise control. This is distinct from passive headphones which, if they reduce ambient sounds at all, use techniques such as soundproofing. </p>
         </div>
     """, unsafe_allow_html=True)
@@ -788,7 +792,8 @@ def page5():
     # 添加问题和选项
     question_5 = st.markdown("""
         <div>
-            <p style='color: black; font-size: 26px;'> 1. Imagine now you want to buy a sheath dress, so you see the following six advertisements in the search engine, which one (which ones) do you want to click the most? Please read the six advertisements and answer the questions.</p>
+            <p style='color: black; font-size: 26px;'> 1. Imagine now you want to buy a sheath dress, so you see the following six advertisements in the search engine, which one (which ones) do you want to click the most? </p>
+            <p style='color: black; font-size: 26px;'> Please read the six advertisements and answer the questions.</p>
             <p style='color: brown; font-size: 18px;'> Sheath dress: In fashion, a sheath dress is a fitted, straight cut dress, often nipped at the waistline with no waist seam. </p>
         </div>
     """, unsafe_allow_html=True)
@@ -966,7 +971,8 @@ def page6():
     # 添加问题和选项
     question_6 = st.markdown("""
         <div>
-            <p style='color: black; font-size: 26px;'> 1. Imagine now you want to buy fantasy books, so you see the following six advertisements in the search engine, which one (which ones) do you want to click the most? Please read the six advertisements and answer the questions.</p>
+            <p style='color: black; font-size: 26px;'> 1. Imagine now you want to buy fantasy books, so you see the following six advertisements in the search engine, which one (which ones) do you want to click the most?</p>
+            <p style='color: black; font-size: 26px;'> Please read the six advertisements and answer the questions.</p>
             <p style='color: brown; font-size: 18px;'>Fantasy books: Fantasy literature is literature set in an imaginary universe, often but not always without any locations, events, or people from the real world. Magic, the supernatural and magical creatures are common in many of these imaginary worlds. </p>
         </div>
     """, unsafe_allow_html=True)
@@ -1150,6 +1156,10 @@ def page02():
         </div>
     """, unsafe_allow_html=True)
 
+    if st.button("Previous question"):
+        st.session_state.page = "Page 0"
+        st.experimental_rerun()
+
     if st.button("Next Page"):
         if (random_number2 == 1):
             st.session_state.page = "Page 7"
@@ -1176,10 +1186,31 @@ def page7():
     """, unsafe_allow_html=True)  # 添加空行
     st.markdown("<br>", unsafe_allow_html=True)  # 添加空行
 
+    st.markdown("""
+        <div>
+            <p style='color: black; font-size: 20px;'> email 1 </p>
+        </div>
+    """, unsafe_allow_html=True)
+
     # 广告图片
-    st.markdown("""generalized email 1""", unsafe_allow_html=True)
+    email_preview_7_0 = """ 
+    ## The Spring Sale is here! ##
+
+    From: Musecore@gmail.com
+    To: James@gmail.com
+
+    --- 
+    
+    """
+    option_7_0_description = st.markdown(email_preview_7_0, unsafe_allow_html=True)
+
     email_image = "email_musecore.jpg"
     st.image(email_image, width=500)
+
+    option_7_00_description = st.markdown("""
+    --- 
+    
+    """, unsafe_allow_html=True)
 
     option_7_0 = st.checkbox("I think this email is relevant to me.", key='question_7_option_0')
     option_7_00 = st.checkbox("This email is attractive.", key='question_7_option_00')
@@ -1191,7 +1222,13 @@ def page7():
     """, unsafe_allow_html=True)  # 添加空行
     st.markdown("<br>", unsafe_allow_html=True)  # 添加空行
 
-    email_preview_7_1 = """ personalized email 2
+    st.markdown("""
+        <div>
+            <p style='color: black; font-size: 20px;'> email 2 </p>
+        </div>
+    """, unsafe_allow_html=True)
+
+    email_preview_7_1 = """ 
     ## Expand Your Musical Horizons - Exclusive music Lessons Offer Inside! ##
 
     From: Musecore@gmail.com
@@ -1226,7 +1263,13 @@ def page7():
     """, unsafe_allow_html=True)  # 添加空行
     st.markdown("<br>", unsafe_allow_html=True)  # 添加空行
 
-    email_preview_7_2 = """ personalized email 3
+    st.markdown("""
+        <div>
+            <p style='color: black; font-size: 20px;'> email 3 </p>
+        </div>
+    """, unsafe_allow_html=True)
+
+    email_preview_7_2 = """ 
     ## Try our newest music course! ##
 
     From: Musecore@gmail.com
@@ -1272,6 +1315,16 @@ def page7():
     option_7_111 = st.checkbox("personalized email 2", key='question_7_option_111')
     option_7_222 = st.checkbox("personalized email 3", key='question_7_option_222')
 
+    question_777 = st.markdown("""
+        <div>
+            <p style='color: black; font-size: 20px;'> Among these three emails, which one will make you want to know more about it? </p>
+        </div>
+    """, unsafe_allow_html=True)
+
+    option_7_0000 = st.checkbox("email 1", key='question_7_option_0000')
+    option_7_1111 = st.checkbox("email 2", key='question_7_option_1111')
+    option_7_2222 = st.checkbox("email 3", key='question_7_option_2222')
+
     # 保存答案
     st.session_state.user_answers['email 1'] = {
         'option 1': option_7_1,
@@ -1282,12 +1335,11 @@ def page7():
         'option 00': option_7_00,
         'option 000': option_7_000,
         'option 111': option_7_111,
-        'option 222': option_7_222
+        'option 222': option_7_222,
+        'option 0000': option_7_0000,
+        'option 1111': option_7_1111,
+        'option 2222': option_7_2222
     }
-
-    if st.button("Previous question"):
-        st.session_state.page = "Page 0"
-        st.experimental_rerun()
 
     if st.button("Next question"):
         st.session_state.page = "Page 03"
@@ -1308,7 +1360,13 @@ def page8():
     """, unsafe_allow_html=True)  # 添加空行
     st.markdown("<br>", unsafe_allow_html=True)  # 添加空行
 
-    email_preview_8_0 = """ generalized email 1
+    st.markdown("""
+        <div>
+            <p style='color: black; font-size: 20px;'> email 1 </p>
+        </div>
+    """, unsafe_allow_html=True)
+
+    email_preview_8_0 = """ 
     ## Find your next luxury break with Beyond Queues: Luxury Travel ##
 
     From: Beyondqueues@gmail.com
@@ -1335,7 +1393,13 @@ def page8():
     """, unsafe_allow_html=True)  # 添加空行
     st.markdown("<br>", unsafe_allow_html=True)  # 添加空行
 
-    email_preview_8_1 = """ personalized email 2
+    st.markdown("""
+        <div>
+            <p style='color: black; font-size: 20px;'> email 2 </p>
+        </div>
+    """, unsafe_allow_html=True)
+
+    email_preview_8_1 = """ 
     ## Your Luxury Travel summer specials. ##
 
     From: Beyondqueues@gmail.com
@@ -1366,7 +1430,13 @@ def page8():
     """, unsafe_allow_html=True)  # 添加空行
     st.markdown("<br>", unsafe_allow_html=True)  # 添加空行
 
-    email_preview_8_2 = """ personalized email 3
+    st.markdown("""
+        <div>
+            <p style='color: black; font-size: 20px;'> email 3 </p>
+        </div>
+    """, unsafe_allow_html=True)
+
+    email_preview_8_2 = """ 
     ## Embrace Tranquility - Exclusive Vacation Offer Inside! ##
 
     From: Beyondqueues@gmail.com
@@ -1411,6 +1481,17 @@ def page8():
     option_8_111 = st.checkbox("personalized email 2", key='question_8_option_111')
     option_8_222 = st.checkbox("personalized email 3", key='question_8_option_222')
 
+    question_888 = st.markdown("""
+        <div>
+            <p style='color: black; font-size: 20px;'> Among these three emails, which one will make you want to know more about it? </p>
+        </div>
+    """, unsafe_allow_html=True)
+
+    option_8_0000 = st.checkbox("email 1", key='question_8_option_0000')
+    option_8_1111 = st.checkbox("email 2", key='question_8_option_1111')
+    option_8_2222 = st.checkbox("email 3", key='question_8_option_2222')
+
+
     # 保存答案
     st.session_state.user_answers['email 2'] = {
         'option 1': option_8_1,
@@ -1421,12 +1502,12 @@ def page8():
         'option 00': option_8_00,
         'option 000': option_8_000,
         'option 111': option_8_111,
-        'option 222': option_8_222
+        'option 222': option_8_222,
+        'option 0000': option_8_0000,
+        'option 1111': option_8_1111,
+        'option 2222': option_8_2222
     }
 
-    if st.button("Previous question"):
-        st.session_state.page = "Page 0"
-        st.experimental_rerun()
 
     if st.button("Next question"):
         st.session_state.page = "Page 03"
@@ -1447,7 +1528,13 @@ def page9():
     """, unsafe_allow_html=True)  # 添加空行
     st.markdown("<br>", unsafe_allow_html=True)  # 添加空行
 
-    email_preview_9_0 = """ generalized email 1
+    st.markdown("""
+        <div>
+            <p style='color: black; font-size: 20px;'> email 1 </p>
+        </div>
+    """, unsafe_allow_html=True)
+
+    email_preview_9_0 = """ 
     ## A Guide to Vitamin C: Health Benefits and Best Sources ##
 
     From: Fullscript@gmail.com
@@ -1476,7 +1563,13 @@ def page9():
     """, unsafe_allow_html=True)  # 添加空行
     st.markdown("<br>", unsafe_allow_html=True)  # 添加空行
 
-    email_preview_9_1 = """ personalized email 2
+    st.markdown("""
+        <div>
+            <p style='color: black; font-size: 20px;'> email 2 </p>
+        </div>
+    """, unsafe_allow_html=True)
+
+    email_preview_9_1 = """ 
     ## Elevate Your Immune System - Exclusive Vitamin C Offer Inside! ##
 
     From: Fullscript@gmail.com
@@ -1511,7 +1604,13 @@ def page9():
     """, unsafe_allow_html=True)  # 添加空行
     st.markdown("<br>", unsafe_allow_html=True)  # 添加空行
 
-    email_preview_9_2 = """ personalized email 3
+    st.markdown("""
+        <div>
+            <p style='color: black; font-size: 20px;'> email 3 </p>
+        </div>
+    """, unsafe_allow_html=True)
+
+    email_preview_9_2 = """ 
     ## Best Vitamin C products especially for you! ##
 
     From: Fullscript@gmail.com
@@ -1550,9 +1649,19 @@ def page9():
         </div>
     """, unsafe_allow_html=True)
 
-    option_9_000 = st.checkbox("generalized email 1", key='question_9_option_000')
-    option_9_111 = st.checkbox("personalized email 2", key='question_9_option_111')
-    option_9_222 = st.checkbox("personalized email 3", key='question_9_option_222')
+    option_9_000 = st.checkbox("email 1", key='question_9_option_000')
+    option_9_111 = st.checkbox("email 2", key='question_9_option_111')
+    option_9_222 = st.checkbox("email 3", key='question_9_option_222')
+
+    question_999 = st.markdown("""
+        <div>
+            <p style='color: black; font-size: 20px;'> Among these three emails, which one will make you want to know more about it? </p>
+        </div>
+    """, unsafe_allow_html=True)
+
+    option_9_0000 = st.checkbox("email 1", key='question_9_option_0000')
+    option_9_1111 = st.checkbox("email 2", key='question_9_option_1111')
+    option_9_2222 = st.checkbox("email 3", key='question_9_option_2222')
 
     # 保存答案
     st.session_state.user_answers['email 3'] = {
@@ -1564,12 +1673,12 @@ def page9():
         'option 00': option_9_00,
         'option 000': option_9_000,
         'option 111': option_9_111,
-        'option 222': option_9_222
+        'option 222': option_9_222,
+        'option 0000': option_9_0000,
+        'option 1111': option_9_1111,
+        'option 2222': option_9_2222
     }
 
-    if st.button("Previous question"):
-        st.session_state.page = "Page 0"
-        st.experimental_rerun()
 
     if st.button("Next question"):
         st.session_state.page = "Page 03"
@@ -1583,9 +1692,13 @@ def page03():
     question_10 = st.markdown("""
         <div>
             <p style='color: black; font-size: 24px;'> The third task is about online advertising that might appear when we use social media. Some of the ads are generated by our model.</p>
-            <p style='color: brown; font-size: 24px;'> Each advertisement has two options, "I will click on this Ad." means that you want to click it subjectively, and "This Ad is attractive." means that you think the advertisement itself is attractive to other people. You can of course choose both or neither. </p>
+            <p style='color: brown; font-size: 24px;'> Each advertisement has two options, "I will click on this Ad." which means that you want to click it subjectively, and "This Ad is attractive." which means that you think the advertisement itself is attractive to other people. You can of course choose both or neither.</p>
         </div>
     """, unsafe_allow_html=True)
+
+    if st.button("Previous question"):
+        st.session_state.page = "Page 02"
+        st.experimental_rerun()
 
     if st.button("Next Page"):
         if (random_number3 == 1):
@@ -1601,7 +1714,8 @@ def page10():
     # 添加问题和选项
     question_10 = st.markdown("""
         <div>
-            <p style='color: black; font-size: 26px;'> 3. Imagine now you want to buy a man's jacket, so you see the following six advertisements in the social media platform, which one (which ones) do you want to click the most? 3.Please read the six advertisements and answer the questions.</p>
+            <p style='color: black; font-size: 26px;'> 3. Imagine now you want to buy a man's jacket, so you see the following six advertisements on the social media platform, which one (which ones) do you want to click the most? </p>
+            <p style='color: black; font-size: 26px;'> Please read the six advertisements and answer the questions.</p>
             <p style='color: brown; font-size: 18px;'>Jacket: A jacket typically has sleeves, and fastens in the front or slightly on the side. A jacket is generally lighter, tighter-fitting, and less insulating than a coat, which is outerwear. </p>
         </div>
     """, unsafe_allow_html=True)
@@ -1614,7 +1728,7 @@ def page10():
     
     # 广告图片
     ad_image = "ad_jacket.jpg"
-    st.image(ad_image, width=500)
+    st.image(ad_image, width=400)
 
     # 广告文本描述
     ad_description_10_1 = """ Ad 1. 
@@ -1639,7 +1753,7 @@ def page10():
     
     # 广告图片
     ad_image = "ad_jacket.jpg"
-    st.image(ad_image, width=500)
+    st.image(ad_image, width=400)
 
     # 广告文本描述
     ad_description_10_2 = """ Ad 2. 
@@ -1664,7 +1778,7 @@ def page10():
     
     # 广告图片
     ad_image = "ad_jacket.jpg"
-    st.image(ad_image, width=500)
+    st.image(ad_image, width=400)
 
     # 广告文本描述
     ad_description_10_3 = """ Ad 3. 
@@ -1689,7 +1803,7 @@ def page10():
     
     # 广告图片
     ad_image = "ad_jacket.jpg"
-    st.image(ad_image, width=500)
+    st.image(ad_image, width=400)
 
     # 广告文本描述
     ad_description_10_4 = """ Ad 4. 
@@ -1714,7 +1828,7 @@ def page10():
     
     # 广告图片
     ad_image = "ad_jacket.jpg"
-    st.image(ad_image, width=500)
+    st.image(ad_image, width=400)
 
     # 广告文本描述
     ad_description_10_5 = """ Ad 5. 
@@ -1739,7 +1853,7 @@ def page10():
     
     # 广告图片
     ad_image = "ad_jacket.jpg"
-    st.image(ad_image, width=500)
+    st.image(ad_image, width=400)
 
     # 广告文本描述
     ad_description_10_6 = """ Ad 6. 
@@ -1861,8 +1975,8 @@ def page11():
     # 添加问题和选项
     question_11 = st.markdown("""
         <div>
-            <p style='color: black; font-size: 26px;'> 3. Imagine now you're hoping to spend a week on vacation with your family, so you see the following six advertisements in the social media platform, which one (which ones) do you want to click the most? 3.Please read the six advertisements and answer the questions.</p>
-            <p style='color: brown; font-size: 18px;'></p>
+            <p style='color: black; font-size: 26px;'> 3. Imagine now you're hoping to spend a week on vacation with your family, so you see the following six advertisements on the social media platform, which one (which ones) do you want to click the most?</p>
+            <p style='color: black; font-size: 26px;'> Please read the six advertisements and answer the questions.</p>
         </div>
     """, unsafe_allow_html=True)
     st.markdown("""
@@ -1874,7 +1988,7 @@ def page11():
     
     # 广告图片
     ad_image = "ad_vacation.jpg"
-    st.image(ad_image, width=500)
+    st.image(ad_image, width=400)
 
     # 广告文本描述
     ad_description_11_1 = """ Ad 1. 
@@ -1898,7 +2012,7 @@ def page11():
     
     # 广告图片
     ad_image = "ad_vacation.jpg"
-    st.image(ad_image, width=500)
+    st.image(ad_image, width=400)
 
     # 广告文本描述
     ad_description_11_2 = """ Ad 2. 
@@ -1923,7 +2037,7 @@ def page11():
     
     # 广告图片
     ad_image = "ad_vacation.jpg"
-    st.image(ad_image, width=500)
+    st.image(ad_image, width=400)
 
     # 广告文本描述
     ad_description_11_3 = """ Ad 3. 
@@ -1948,7 +2062,7 @@ def page11():
     
     # 广告图片
     ad_image = "ad_vacation.jpg"
-    st.image(ad_image, width=500)
+    st.image(ad_image, width=400)
 
     # 广告文本描述
     ad_description_11_4 = """ Ad 4. 
@@ -1975,7 +2089,7 @@ def page11():
     
     # 广告图片
     ad_image = "ad_vacation.jpg"
-    st.image(ad_image, width=500)
+    st.image(ad_image, width=400)
 
     # 广告文本描述
     ad_description_11_5 = """ Ad 5. 
@@ -2000,7 +2114,7 @@ def page11():
     
     # 广告图片
     ad_image = "ad_vacation.jpg"
-    st.image(ad_image, width=500)
+    st.image(ad_image, width=400)
 
     # 广告文本描述
     ad_description_11_6 = """ Ad 6. 
