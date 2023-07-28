@@ -1188,7 +1188,7 @@ def page7():
 
     st.markdown("""
         <div>
-            <p style='color: black; font-size: 20px;'> email 1 </p>
+            <p style='color: black; font-size: 26px;'> Email 1 </p>
         </div>
     """, unsafe_allow_html=True)
 
@@ -1224,7 +1224,7 @@ def page7():
 
     st.markdown("""
         <div>
-            <p style='color: black; font-size: 20px;'> email 2 </p>
+            <p style='color: black; font-size: 26px;'> Email 2 </p>
         </div>
     """, unsafe_allow_html=True)
 
@@ -1265,7 +1265,7 @@ def page7():
 
     st.markdown("""
         <div>
-            <p style='color: black; font-size: 20px;'> email 3 </p>
+            <p style='color: black; font-size: 26px;'> Email 3 </p>
         </div>
     """, unsafe_allow_html=True)
 
@@ -1311,9 +1311,9 @@ def page7():
         </div>
     """, unsafe_allow_html=True)
 
-    option_7_000 = st.checkbox("generalized email 1", key='question_7_option_000')
-    option_7_111 = st.checkbox("personalized email 2", key='question_7_option_111')
-    option_7_222 = st.checkbox("personalized email 3", key='question_7_option_222')
+    option_7_000 = st.checkbox("Email 1", key='question_7_option_000')
+    option_7_111 = st.checkbox("Email 2", key='question_7_option_111')
+    option_7_222 = st.checkbox("Email 3", key='question_7_option_222')
 
     question_777 = st.markdown("""
         <div>
@@ -1321,9 +1321,9 @@ def page7():
         </div>
     """, unsafe_allow_html=True)
 
-    option_7_0000 = st.checkbox("email 1", key='question_7_option_0000')
-    option_7_1111 = st.checkbox("email 2", key='question_7_option_1111')
-    option_7_2222 = st.checkbox("email 3", key='question_7_option_2222')
+    option_7_0000 = st.checkbox("Email 1", key='question_7_option_0000')
+    option_7_1111 = st.checkbox("Email 2", key='question_7_option_1111')
+    option_7_2222 = st.checkbox("Email 3", key='question_7_option_2222')
 
     # 保存答案
     st.session_state.user_answers['email 1'] = {
@@ -1362,7 +1362,7 @@ def page8():
 
     st.markdown("""
         <div>
-            <p style='color: black; font-size: 20px;'> email 1 </p>
+            <p style='color: black; font-size: 26px;'> Email 1 </p>
         </div>
     """, unsafe_allow_html=True)
 
@@ -1395,7 +1395,7 @@ def page8():
 
     st.markdown("""
         <div>
-            <p style='color: black; font-size: 20px;'> email 2 </p>
+            <p style='color: black; font-size: 26px;'> Email 2 </p>
         </div>
     """, unsafe_allow_html=True)
 
@@ -1432,7 +1432,7 @@ def page8():
 
     st.markdown("""
         <div>
-            <p style='color: black; font-size: 20px;'> email 3 </p>
+            <p style='color: black; font-size: 26px;'> Email 3 </p>
         </div>
     """, unsafe_allow_html=True)
 
@@ -1477,9 +1477,9 @@ def page8():
         </div>
     """, unsafe_allow_html=True)
 
-    option_8_000 = st.checkbox("generalized email 1", key='question_8_option_000')
-    option_8_111 = st.checkbox("personalized email 2", key='question_8_option_111')
-    option_8_222 = st.checkbox("personalized email 3", key='question_8_option_222')
+    option_8_000 = st.checkbox("Email 1", key='question_8_option_000')
+    option_8_111 = st.checkbox("Email 2", key='question_8_option_111')
+    option_8_222 = st.checkbox("Email 3", key='question_8_option_222')
 
     question_888 = st.markdown("""
         <div>
@@ -1487,9 +1487,9 @@ def page8():
         </div>
     """, unsafe_allow_html=True)
 
-    option_8_0000 = st.checkbox("email 1", key='question_8_option_0000')
-    option_8_1111 = st.checkbox("email 2", key='question_8_option_1111')
-    option_8_2222 = st.checkbox("email 3", key='question_8_option_2222')
+    option_8_0000 = st.checkbox("Email 1", key='question_8_option_0000')
+    option_8_1111 = st.checkbox("Email 2", key='question_8_option_1111')
+    option_8_2222 = st.checkbox("Email 3", key='question_8_option_2222')
 
 
     # 保存答案
@@ -1530,7 +1530,7 @@ def page9():
 
     st.markdown("""
         <div>
-            <p style='color: black; font-size: 20px;'> email 1 </p>
+            <p style='color: black; font-size: 26px;'> Email 1 </p>
         </div>
     """, unsafe_allow_html=True)
 
@@ -1565,7 +1565,7 @@ def page9():
 
     st.markdown("""
         <div>
-            <p style='color: black; font-size: 20px;'> email 2 </p>
+            <p style='color: black; font-size: 26px;'> Email 2 </p>
         </div>
     """, unsafe_allow_html=True)
 
@@ -1606,7 +1606,7 @@ def page9():
 
     st.markdown("""
         <div>
-            <p style='color: black; font-size: 20px;'> email 3 </p>
+            <p style='color: black; font-size: 26px;'> Email 3 </p>
         </div>
     """, unsafe_allow_html=True)
 
@@ -1649,9 +1649,9 @@ def page9():
         </div>
     """, unsafe_allow_html=True)
 
-    option_9_000 = st.checkbox("email 1", key='question_9_option_000')
-    option_9_111 = st.checkbox("email 2", key='question_9_option_111')
-    option_9_222 = st.checkbox("email 3", key='question_9_option_222')
+    option_9_000 = st.checkbox("Email 1", key='question_9_option_000')
+    option_9_111 = st.checkbox("Email 2", key='question_9_option_111')
+    option_9_222 = st.checkbox("Email 3", key='question_9_option_222')
 
     question_999 = st.markdown("""
         <div>
@@ -1659,9 +1659,9 @@ def page9():
         </div>
     """, unsafe_allow_html=True)
 
-    option_9_0000 = st.checkbox("email 1", key='question_9_option_0000')
-    option_9_1111 = st.checkbox("email 2", key='question_9_option_1111')
-    option_9_2222 = st.checkbox("email 3", key='question_9_option_2222')
+    option_9_0000 = st.checkbox("Email 1", key='question_9_option_0000')
+    option_9_1111 = st.checkbox("Email 2", key='question_9_option_1111')
+    option_9_2222 = st.checkbox("Email 3", key='question_9_option_2222')
 
     # 保存答案
     st.session_state.user_answers['email 3'] = {
