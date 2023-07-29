@@ -1733,7 +1733,7 @@ def page10():
     # 广告文本描述
     ad_description_10_1 = """ Ad 1. 
     
-    **Elevate Your Look with Women's Trousers**
+    **Coats & Jackets | Men**
     
     Our Seasonal Sale Is Live! Free Worldwide Shipping. Experience The Entire Collection Today. Elevate Your Style.
     
